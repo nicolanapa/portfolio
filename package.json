@@ -1,0 +1,25 @@
+{
+    "name": "dynamic-user-interfaces",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "git": "git subtree push --prefix dist origin gh-pages"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "css-loader": "^6.10.0",
+        "style-loader": "^3.3.4",
+        "webpack": "^5.90.1",
+        "webpack-cli": "^5.1.4"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "3.2.5"
+    }
+}
