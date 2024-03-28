@@ -19,12 +19,15 @@ As you can see it's not new but I've upgraded it a lot (bought it used at 20€,
 ## Services/Programs used
 
 To host this [website](https://nicolanapa.duckdns.org) I've used:
+
 -   Caddy
 -   Fail2ban
 
-But also I've got/setup
+But I've also got/setup
+
 -   Jellyfin
 -   SSH/Samba
 -   A Minecraft Server
 -   A Project Zomboid Server
+
 on my server.
