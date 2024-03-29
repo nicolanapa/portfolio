@@ -18,6 +18,7 @@ module.exports = {
     output: {
         filename: "main.js",
         path: path.resolve(__dirname, "dist"),
+        clean: true,
     },
     module: {
         rules: [
@@ -41,6 +42,10 @@ module.exports = {
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: ["file-loader"],
+            },
+            {
+                test: /\.html$/i,
+                loader: "html-loader",
             },
         ],
     },

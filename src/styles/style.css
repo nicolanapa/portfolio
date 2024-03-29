@@ -9,7 +9,7 @@
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 3fr 0.5fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 80px;
     margin-bottom: -2px;
 }
@@ -39,6 +39,7 @@
 .header.link:link {
     font-weight: 700;
     text-decoration: none;
+    text-align: center;
     color: blue;
     align-items: center;
 }
@@ -48,8 +49,11 @@
 }
 
 .center {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    
     padding: 0;
-    justify-content: center;
+    justify-self: center;
     align-self: center;
 }
 
