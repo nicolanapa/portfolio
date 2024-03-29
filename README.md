@@ -2,6 +2,12 @@
 
 This is my "portfolio/website" and it's currently hosted on my [Server](https://nicolanapa.duckdns.org).
 
+## Server's status
+
+If the site doesn't load, the server might be off. 
+It's not always on.
+I might use Github Pages as a backup "page".
+
 ## Server's specs
 
 My server has those specs if you're interested:
