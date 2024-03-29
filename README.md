@@ -4,7 +4,7 @@ This is my "portfolio/website" and it's currently hosted on my [Server](https://
 
 ## Server's status
 
-If the site doesn't load, the server might be off. 
+If the site doesn't load, the server might be off.
 It's not always on.
 I might use Github Pages as a backup "page".
 
@@ -37,3 +37,4 @@ But I've also got/setup
 -   A Project Zomboid Server
 
 on my server.
+
