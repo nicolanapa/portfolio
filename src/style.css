@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@font-face {
+    font-family: "roboto-flex-server";
+    src: url(./RobotoFlex-Variable_Font.ttf);
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto Flex", "roboto-flex-server", system-ui;
+}
