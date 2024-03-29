@@ -1,3 +1,4 @@
-import "./style.css";
+import "./styles/style.css";
+import "./styles/bestProjects.css";
 
-import {} from "./darkLightMode";
+import {} from "./scripts/darkLightMode";
