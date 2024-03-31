@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -10,40 +10,48 @@
         <title>Nicolanapa's Website</title>
 
         <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/style.css" />
         <script defer src="./scripts/darkLightMode.js"></script>
     </head>
     <body>
-        <div class="header">
-            <div class="left">
-                <img
-                    id="profile-picture"
-                    src="./images/githubProfilePicture.png"
-                    alt="My profile picture of my Github account"
-                    height="60px" width="auto"
-                />
-                <h2 style="margin-left: 10px" class="current-page">
-                    <a class="header link" href="https://github.com/nicolanapa">Nicolanapa</a>
-                </h2>
-            </div>
-
-            <div class="center">
-                <div><a class="header link" href="#"></a></div>
-                <div><a class="header link" href="#"></a></div>
-                <div><a class="header link" href="./bestProjects.html">Best Projects</a></div>
-                <div><a class="header link" href="#">Y</a></div>
-                <div><a class="header link" href="#">Z</a></div>
-                <div><a class="header link" href="#"></a></div>
-            </div>
-
-            <div class="right">
-                <div class="dark-light-mode">
+        <!--
+            Added another div because of a strange bug with center 
+            and border-bottom
+        -->
+        <div style="border-bottom: 2px solid black">
+            <div class="header">
+                <div class="left">
                     <img
-                        id="dark-light-mode-svg"
-                        src="./images/darkLightMode.svg"
-                        alt="A image button for the dark and light mode"
-                        height="60px" width="auto"
+                        id="profile-picture"
+                        src="./images/githubProfilePicture.png"
+                        alt="My profile picture of my Github account"
+                        height="60px"
+                        width="auto"
                     />
+                    <h2 style="margin-left: 10px" class="current-page">
+                        <a class="header link" href="https://github.com/nicolanapa">Nicolanapa</a>
+                    </h2>
+                </div>
+
+                <div class="center">
+                    <div><a class="header link" href="#"></a></div>
+                    <div><a class="header link" href="#"></a></div>
+                    <div><a class="header link" href="./bestProjects.html">Best Projects</a></div>
+                    <div><a class="header link" href="#">Y</a></div>
+                    <div><a class="header link" href="#">Z</a></div>
+                    <div><a class="header link" href="#"></a></div>
+                </div>
+
+                <div class="right">
+                    <div class="dark-light-mode">
+                        <img
+                            id="dark-light-mode-svg"
+                            src="./images/darkLightMode.svg"
+                            alt="A image button for the dark and light mode"
+                            height="60px"
+                            width="auto"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
