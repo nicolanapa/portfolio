@@ -24,7 +24,7 @@
     }
 
     .image {
-        display: block;
+        display: flex;
         visibility: visible;
     }
 }

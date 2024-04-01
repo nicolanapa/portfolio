@@ -24,6 +24,7 @@
 .project-right {
     margin: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -33,8 +34,6 @@
     display: flex;
     width: clamp(30px, 400px, 80%);
     margin: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 800px) {
@@ -46,9 +45,6 @@
     .mobile-image {
         display: flex;
         visibility: visible;
-
-        justify-self: center;
-        align-items: center;
     }
 
     .image {
@@ -69,7 +65,7 @@
     }
 
     .image {
-        display: block;
+        display: flex;
         visibility: visible;
     }
 }
@@ -86,7 +82,7 @@
     }
 
     .image {
-        display: block;
+        display: flex;
         visibility: visible;
     }
 }
