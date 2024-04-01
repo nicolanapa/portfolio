@@ -1,6 +1,6 @@
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
     grid-template-rows: auto;
     gap: 2.5%;
     margin: 25px 20px;
@@ -9,7 +9,7 @@
 
 .project {
     display: grid;
-    grid-template-columns: 1fr 1.15fr;
+    grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 1fr;
     gap: 10px;
     padding: 5px;
@@ -28,9 +28,67 @@
     align-items: center;
 }
 
-.image {
-    width: clamp(30px, 300px, 80%);
+.image,
+.mobile-image {
+    display: flex;
+    width: clamp(30px, 400px, 80%);
     margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 800px) {
+    .project {
+        grid-template-columns: 1fr;
+        margin: 5px 2.5%;
+    }
+
+    .mobile-image {
+        display: flex;
+        visibility: visible;
+
+        justify-self: center;
+        align-items: center;
+    }
+
+    .image {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1500px) {
+    .project {
+        grid-template-columns: 1fr 0.95fr;
+        margin: 25px 3.5%;
+    }
+
+    .mobile-image {
+        display: none;
+        visibility: hidden;
+    }
+
+    .image {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+    .project {
+        grid-template-columns: 1fr 1.5fr;
+        margin: 25px 5%;
+    }
+
+    .mobile-image {
+        display: none;
+        visibility: hidden;
+    }
+
+    .image {
+        display: block;
+        visibility: visible;
+    }
 }
 
 .title {
@@ -39,7 +97,7 @@
 }
 
 .description {
-    margin: 0 -5px 20px 20px;
+    margin: 0 -5px 10px 10px;
 }
 
 .description > a {
