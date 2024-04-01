@@ -1,14 +1,15 @@
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(600px, 2fr));
     grid-template-rows: auto;
-    gap: 30px;
-    padding: 25px 20px;
+    gap: 2.5%;
+    margin: 25px 20px;
+    padding: 5px;
 }
 
 .project {
     display: grid;
-    grid-template-columns: 1fr 1.25fr;
+    grid-template-columns: 1fr 1.15fr;
     grid-template-rows: 1fr;
     gap: 10px;
     padding: 5px;
@@ -21,6 +22,15 @@
 }
 
 .project-right {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: clamp(30px, 300px, 80%);
+    margin: 10px;
 }
 
 .title {
@@ -34,8 +44,4 @@
 
 .description > a {
     display: flex;
-}
-
-.image {
-    margin: 10px;
 }

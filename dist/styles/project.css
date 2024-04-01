@@ -1,2 +1,14 @@
 .actual-project {
 }
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 5px;
+    margin: 25px 5%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
