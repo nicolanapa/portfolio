@@ -4,6 +4,17 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
+            http-equiv="Content-Security-Policy"
+            content="
+            default-src 'self' data: gap: https://ssl.gstatic.com ; 
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com;
+            img-src 'self' data: https: content:;
+            media-src 'self' *;
+            "
+        />
+        <meta
             name="description"
             content="This is my website and it will be used for portfolio reasons (Author: Nicolanapa)"
         />
@@ -21,7 +32,6 @@
 
         <div style="width: 100%; border-bottom: 2px solid black">
             <div class="header">
-
                 <!-- HEADER LEFT -->
                 <div class="header-left">
                     <img

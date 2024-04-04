@@ -4,6 +4,17 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
+            http-equiv="Content-Security-Policy"
+            content="
+            default-src 'self' data: gap: https://ssl.gstatic.com ; 
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com;
+            img-src 'self' data: https: content:;
+            media-src 'self' *;
+            "
+        />
+        <meta
             name="description"
             content="Project: Weather-App, this project comes from 'The Odin Project' and it's a weather page which let's you search for any city and its weather.
              I'm using Weather API for the weather and Giphy API to get weather-based GIFs"
