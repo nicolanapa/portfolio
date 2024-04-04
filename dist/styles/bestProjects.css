@@ -32,14 +32,22 @@
 .image,
 .mobile-image {
     display: flex;
-    width: clamp(30px, 400px, 80%);
+    width: clamp(20px, 400px, 80%);
     margin: 10px;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2.5%;
+        margin: 25px 0.5%;
+        padding: 2.5px;
+    }
+
     .project {
         grid-template-columns: 1fr;
-        margin: 5px 1%;
+        padding: 7px;
+        margin: 10px 1%;
     }
 
     .mobile-image {
@@ -54,8 +62,16 @@
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1500px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+        gap: 2.5%;
+        margin: 25px 2%;
+        padding: 5px;
+    }
+
     .project {
         grid-template-columns: 1fr 0.95fr;
+        padding: 7.5px;
         margin: 25px 3.5%;
     }
 
@@ -71,8 +87,16 @@
 }
 
 @media only screen and (min-width: 1501px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
+        gap: 2.5%;
+        margin: 25px 10px;
+        padding: 5px;
+    }
+
     .project {
         grid-template-columns: 1fr 1.5fr;
+        padding: 9px;
         margin: 25px 5%;
     }
 
