@@ -23,6 +23,7 @@ body {
 .header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    gap: calc(1rem - 5px);
     grid-template-rows: 85px;
     width: 100%;
 }
@@ -31,20 +32,19 @@ body {
 .header-center,
 .header-right {
     display: flex;
-    gap: 6px;
     justify-content: center;
     align-items: center;
     padding: 15px;
 }
 
-.header-left {
+.header-left,
+.header-left-mobile {
     justify-content: flex-start;
     border-right: 2px solid black;
 }
 
 #profile-picture {
     border-radius: 10%;
-    width: 30px;
 }
 
 .link:link {
@@ -63,8 +63,8 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 0;
-    justify-items: center;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-right {
@@ -83,4 +83,72 @@ body {
 
 #dark-light-mode-svg {
     animation: rotation 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+@media only screen and (min-width: 50px) and (max-width: 700px) {
+    .header-left {
+        display: none;
+        visibility: hidden;
+    }
+
+    .header-left-mobile {
+        display: flex;
+        visibility: visible;
+        font-size: calc(1rem - 2px);
+    }
+
+    .header-center {
+        font-size: calc(1rem - 4px);
+    }
+
+    .header-center {
+        display: none;
+        visibility: hidden;
+    }
+
+    .header-center-mobile {
+        display: grid;
+        visibility: visible;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: calc(1rem - 4px);
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #profile-picture {
+        width: 40px;
+        height: 20px;
+    }
+
+    #dark-light-mode-svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .header-left {
+        display: flex;
+        visibility: visible;
+    }
+
+    .header-left-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    .header-center-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    .header-center {
+        display: grid;
+        visibility: visible;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -1,6 +1,3 @@
-.actual-project {
-}
-
 .project {
     display: grid;
     grid-template-columns: 1fr;
