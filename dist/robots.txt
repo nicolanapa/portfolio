@@ -1,1 +1,1 @@
-Sitemap: https://nicolanapa.duckdns.org/sitemap.xml
+sitemap: https://nicolanapa.duckdns.org/sitemap.xml
