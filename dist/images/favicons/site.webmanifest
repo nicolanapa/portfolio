@@ -1,0 +1,20 @@
+{
+    "name": "Nicolanapa's Website",
+    "short_name": "Nicolanapa's Website",
+    "icons": [
+        {
+            "src": "https://nicolanapa.duckdns.org/images/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://nicolanapa.duckdns.org/images/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#eef5ff",
+    "background_color": "#eef5ff",
+    "start_url": "https://nicolanapa.duckdns.org",
+    "display": "standalone"
+}

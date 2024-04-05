@@ -3,24 +3,42 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="apple-mobile-web-app-title" content="Nicolanapa's Website" />
+        <meta name="application-name" content="Nicolanapa's Website" />
+        <meta name="msapplication-TileColor" content="#eef5ff" />
+        <meta name="msapplication-TileImage" content="https://nicolanapa.duckdns.org/images/favicons/mstile-144x144.png" />
+        <meta name="msapplication-config" content="https://nicolanapa.duckdns.org/images/favicons/browserconfig.xml" />
+        <meta name="theme-color" content="#eef5ff" />
+
         <meta
             http-equiv="Content-Security-Policy"
             content="
             default-src 'self' data: gap: https://ssl.gstatic.com ; 
-            script-src 'self';
+            script-src 'self' 'unsafe-inline';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com;
             img-src 'self' data: https: content:;
             media-src 'self' *;
             "
         />
-        <meta
-            name="description"
-            content="This is my website and it will be used for portfolio reasons (Author: Nicolanapa)"
-        />
+        <meta name="description" content="This is my website and it will be used for portfolio reasons (Nicolanapa)" />
         <title>Nicolanapa's Website</title>
 
-        <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://nicolanapa.duckdns.org/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://nicolanapa.duckdns.org/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="194x194" href="https://nicolanapa.duckdns.org/images/favicons/favicon-194x194.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="https://nicolanapa.duckdns.org/images/favicons/android-chrome-192x192.png"
+        />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://nicolanapa.duckdns.org/images/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="https://nicolanapa.duckdns.org/images/favicons/site.webmanifest" />
+        <link rel="mask-icon" href="https://nicolanapa.duckdns.org/images/favicons/safari-pinned-tab.svg" color="#000000" />
+        <link rel="shortcut icon" href="https://nicolanapa.duckdns.org/images/favicons/favicon.ico" />
+
         <link rel="stylesheet" href="./styles/style.css" />
         <script defer src="./scripts/darkLightMode.js"></script>
     </head>
@@ -47,9 +65,13 @@
                 </div>
 
                 <div style="padding-left: 10px" class="header-left-mobile">
-                    <h3 class="actual-tab">
-                        <a class="header link" href="https://github.com/nicolanapa">Nicolanapa</a>
-                    </h3>
+                    <a class="header link" href="https://github.com/nicolanapa"
+                        ><img
+                            class="actual-tab"
+                            id="profile-picture"
+                            src="./images/githubProfilePictureCompressed.webp"
+                            alt="My profile picture of my Github account, linking to my Github Profile"
+                    /></a>
                 </div>
 
                 <!-- HEADER CENTRAL -->
@@ -58,7 +80,7 @@
                     <div><a class="header link" href="#"></a></div>
                     <div><a class="header link" href="./bestProjects.html">Best Projects</a></div>
                     <!--
-                        With the use of js make it choose randomly a project, rand
+                        With the use of js make it choose randomly a project, ex rand(), change href link!
                     -->
                     <div><a class="header link" href="#">Random Project</a></div>
                     <div><a class="header link" href="#">Z</a></div>
