@@ -107,12 +107,20 @@ body {
     }
 
     .header-center-mobile {
-        display: flex;
+        display: grid;
         visibility: visible;
-        font-size: calc(1rem - 4px);
-        padding-left: 10%;
+        grid-template-columns: 1.5fr 1.5fr 1fr;
+        margin-left: calc(10% - 1rem);
         justify-content: center;
-        align-items: center;
+        text-align: center;
+        font-size: calc(1rem - 4px);
+    }
+
+    .header-center-mobile > div {
+        display: inline-block;
+        text-align: center;
+        /* Find another solution for blue thing not centered */
+        -webkit-tap-highlight-color: transparent;
     }
 
     #profile-picture {
