@@ -120,7 +120,7 @@ body {
         display: inline-block;
         text-align: center;
         /* Find another solution for blue thing not centered */
-        -webkit-tap-highlight-color: transparent;
+        /*-webkit-tap-highlight-color: transparent;*/
     }
 
     #profile-picture {
