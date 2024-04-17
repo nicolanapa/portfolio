@@ -97,8 +97,8 @@
     }
 
     .description {
-        font-weight: 300;
-        padding: 2.5px 3.5% 1.5px 0.5%;
+        font-weight: 400;
+        padding: 2.5px 2.5% 1.5px 0.5%;
     }
 
     .mobile-image {
@@ -127,6 +127,11 @@
 
         border: none;
         background-color: #cdf5fd;
+    }
+
+    .description {
+        font-weight: 450;
+        padding: 5px 3.5% 2.5px 2.5%;
     }
 
     .mobile-image {
