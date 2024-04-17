@@ -37,7 +37,7 @@
 .image,
 .mobile-image {
     display: flex;
-    width: clamp(20px, 400px, 80%);
+    width: clamp(20px, 400px, 70%);
     margin: 5px;
 }
 
@@ -59,12 +59,18 @@
     }
 
     .description {
+        font-weight: 300;
         padding: 2.5px 3.5% 1.5px 0.5%;
     }
 
     .mobile-image {
-        display: flex;
+        display: block;
         visibility: visible;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin-top: 5%;
     }
 
     .image {
@@ -88,6 +94,11 @@
 
         border: none;
         background-color: #cdf5fd;
+    }
+
+    .description {
+        font-weight: 300;
+        padding: 2.5px 3.5% 1.5px 0.5%;
     }
 
     .mobile-image {

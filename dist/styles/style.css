@@ -20,6 +20,10 @@ body {
     background-color: white;
 }
 
+.header-border {
+    border-bottom: 2px solid black;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -27,8 +31,6 @@ body {
     grid-template-rows: 85px;
     width: 100%;
 }
-
-
 
 .header-left,
 .header-center,
@@ -53,12 +55,12 @@ body {
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    color: #00A9FF;
+    color: #00a9ff;
     align-items: center;
 }
 
 .link:visited {
-    color: #00A9FF;
+    color: #00a9ff;
 }
 
 .header:link {
