@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: #eef5ff;
+    background-color: white;
 }
 
 .header {
@@ -27,6 +27,8 @@ body {
     grid-template-rows: 85px;
     width: 100%;
 }
+
+
 
 .header-left,
 .header-center,
@@ -51,11 +53,19 @@ body {
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    color: blue;
+    color: #00A9FF;
     align-items: center;
 }
 
 .link:visited {
+    color: #00A9FF;
+}
+
+.header:link {
+    color: blue;
+}
+
+.header:visited {
     color: blue;
 }
 

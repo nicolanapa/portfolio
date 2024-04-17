@@ -14,8 +14,13 @@
     gap: 10px;
     padding: 5px;
 
-    border: 2px solid black;
+    border: none;
     border-radius: 20px;
+    background-color: #cdf5fd;
+}
+
+.description {
+    padding: 5px 5px;
 }
 
 /*.project-left {
@@ -33,21 +38,28 @@
 .mobile-image {
     display: flex;
     width: clamp(20px, 400px, 80%);
-    margin: 10px;
+    margin: 5px;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
     .projects-container {
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         gap: 2.5%;
-        margin: 25px 0.5%;
+        margin: 25px 1.5%;
         padding: 2.5px;
     }
 
     .project {
         grid-template-columns: 1fr;
         padding: 7px;
-        margin: 10px 1%;
+        margin: 10px 1.5%;
+
+        border: none;
+        background-color: #cdf5fd;
+    }
+
+    .description {
+        padding: 2.5px 3.5% 1.5px 0.5%;
     }
 
     .mobile-image {
@@ -73,6 +85,9 @@
         grid-template-columns: 1fr 0.95fr;
         padding: 7.5px;
         margin: 25px 3.5%;
+
+        border: none;
+        background-color: #cdf5fd;
     }
 
     .mobile-image {
@@ -98,6 +113,9 @@
         grid-template-columns: 1fr 1.5fr;
         padding: 9px;
         margin: 25px 5%;
+
+        border: none;
+        background-color: #cdf5fd;
     }
 
     .mobile-image {

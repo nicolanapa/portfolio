@@ -3,16 +3,21 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     padding: 10px;
-    margin: 15px 2.5%;
+    margin: 15px 3.5%;
+}
 
-    border: 2px solid black;
-    border-radius: 20px;
+.description {
+    padding: 2.5px 3.5% 1.5px 0.5%;
 }
 
 @media only screen and (min-width: 1501px) {
     .project {
         grid-template-columns: 1fr 1.5fr;
         margin: 25px 15%;
+    }
+
+    .description {
+        padding: 5px 5.5% 2.5px 2.5%;
     }
 
     .mobile-image {
