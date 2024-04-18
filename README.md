@@ -18,9 +18,9 @@ My server has those specs if you're interested:
     -   16GB DDR3
 -   SSD
     -   870 EVO 1TB
--   HDD - 1TB (have another HDD of 1TB and 500GB but they're not used)
+-   HDD - 1TB (have another HDD of 1TB and 500GB but they're not used as of now)
 
-As you can see it's not new but I've upgraded it a lot (bought it used at 20€, upgraded CPU, RAM, SSD and bought 2 1TB HDDs)
+As you can see it's not really new but I've upgraded it a lot (bought it used at 20€, upgraded CPU, RAM, SSD and bought 2 1TB HDDs)
 
 ## Services/Programs used
 
@@ -28,6 +28,7 @@ To host this [website](https://nicolanapa.duckdns.org) I've used:
 
 -   Caddy
 -   Fail2ban
+-   GoAccess (For viewing/reading the website's Statistics)
 
 But I've also got/setup
 
