@@ -72,14 +72,6 @@ body {
     color: blue;
 }
 
-.header-center {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-}
-
 .header-right {
     justify-content: flex-end;
     border-left: 2px solid black;
@@ -145,6 +137,11 @@ body {
     }
 
     #dark-light-mode-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    #about-me-svg {
         width: 30px;
         height: 30px;
     }
