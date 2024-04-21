@@ -136,19 +136,12 @@ body {
         border-radius: 5px;
     }
 
-    #dark-light-mode-svg {
+    #dark-light-mode-svg,
+    #about-me-svg,
+    #best-projects-svg,
+    #random-project-svg {
         width: 30px;
         height: 30px;
-    }
-
-    #about-me-svg {
-        width: 30px;
-        height: 30px;
-    }
-
-    #best-projects-svg {
-        width: 30px;
-        height: 60px;
     }
 }
 
