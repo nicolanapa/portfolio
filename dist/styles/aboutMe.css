@@ -76,7 +76,7 @@ ol {
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
     .icons {
-        padding: 10px 0 14% 0;
+        padding: 10px 0 20% 0;
     }
 
     .icon-list {
@@ -104,18 +104,18 @@ ol {
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1500px) {
+@media only screen and (min-width: 701px) and (max-width: 1300px) {
     .icons {
         width: calc(90% - 60px);
-        padding: 10px 0 50px 0;
+        padding: 10px 0 150px 0;
     }
 
     .icon-list {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        grid-template-columns: repeat(auto-fit, minmax(340px, 2fr));
         gap: 4%;
-        margin: 10px 6% 60px 6%;
-        padding: 3% 2.5%;
+        margin: 10px 5% 12% 5%;
+        padding: 2% 2.5%;
         border: none;
         border-radius: 20px;
         background-color: #cdf5fd;
@@ -131,10 +131,10 @@ ol {
     }
 }
 
-@media only screen and (min-width: 1501px) {
+@media only screen and (min-width: 1301px) {
     .icons {
         width: calc(80% - 60px);
-        padding: 20px 0;
+        padding: 20px 0 50px 0;
     }
 
     .icon-list {
