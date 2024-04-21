@@ -18,15 +18,20 @@
     text-align: center;
 }
 
-#copyright-title {
-    font-size: calc(12px + 0.9rem);
+#copyright-title,
+#copyright-github-title {
+    font-size: calc(12px + 1rem);
     font-style: italic;
     font-weight: 750;
 
     margin: 5px 0 10px 15px;
 }
 
-.copyright > p {
+#copyright-github-title {
+    font-size: calc(8px + 0.7rem);
+}
+
+.copyright > div > p {
     font-size: calc(-4px + 1rem);
     font-style: italic;
     font-weight: 300;
