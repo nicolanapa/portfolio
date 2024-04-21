@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -13,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto Flex", "Open Sans", system-ui;
+    font-family: "Roboto Flex", "Roboto", system-ui;
 }
 
 body {
@@ -44,7 +43,7 @@ body {
 .header-left,
 .header-left-mobile {
     justify-content: flex-start;
-    border-right: 2px solid black;
+    border-right: 0px solid black;
 }
 
 #profile-picture {
@@ -74,7 +73,7 @@ body {
 
 .header-right {
     justify-content: flex-end;
-    border-left: 2px solid black;
+    border-left: 0px solid black;
 }
 
 /* Blue color for light mode of the darkLightMode.svg*/
@@ -117,7 +116,7 @@ body {
         display: grid;
         visibility: visible;
         grid-template-columns: 1.5fr 1.5fr 1fr;
-        margin-left: calc(10% - 1rem);
+        margin-left: calc(20% - 1rem);
         justify-content: center;
         text-align: center;
         font-size: calc(1rem - 4px);
