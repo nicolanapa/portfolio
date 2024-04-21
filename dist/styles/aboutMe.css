@@ -1,17 +1,29 @@
+.top-border {
+    border-top: none;
+}
+
+.copyright-full {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .copyright {
-    margin: 5%;
-    padding: 2.5%;
+    max-width: 1000px;
+    margin: 30px 3.5%;
+    padding: 2%;
     border: none;
     border-radius: 20px;
     background-color: #cdf5fd;
+    text-align: center;
 }
 
 #copyright-title {
     font-size: calc(12px + 0.9rem);
     font-style: italic;
     font-weight: 750;
-    text-align: center;
-    margin: 20px 0 10px 15px;
+
+    margin: 5px 0 10px 15px;
 }
 
 .copyright > p {
