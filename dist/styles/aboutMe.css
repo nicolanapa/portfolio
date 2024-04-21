@@ -1,0 +1,23 @@
+.copyright {
+    margin: 5%;
+    padding: 2.5%;
+    border: none;
+    border-radius: 20px;
+    background-color: #cdf5fd;
+}
+
+#copyright-title {
+    font-size: calc(12px + 0.9rem);
+    font-style: italic;
+    font-weight: 750;
+    text-align: center;
+    margin: 20px 0 10px 15px;
+}
+
+.copyright > p {
+    font-size: calc(-4px + 1rem);
+    font-style: italic;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
