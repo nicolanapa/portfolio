@@ -2,7 +2,8 @@
     border-top: none;
 }
 
-.copyright-full {
+.copyright-full,
+.icons-full {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,7 +20,8 @@
 }
 
 #copyright-title,
-#copyright-github-title {
+#copyright-github-title,
+#icons-meaning {
     font-size: calc(12px + 1rem);
     font-style: italic;
     font-weight: 750;
@@ -27,7 +29,8 @@
     margin: 2.5px 0 10px 15px;
 }
 
-#copyright-github-title {
+#copyright-github-title,
+#icons-meaning {
     font-size: calc(6px + 0.7rem);
 }
 
@@ -38,14 +41,123 @@
     padding: 10px 0;
 }
 
-.icon-list {
+.icons {
+    margin: 30px 3.5%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #cdf5fd;
 }
 
-.icon-list > li > img {
-    width: 60px;
-    height: 60px;
+.icons-meaning {
+    text-align: center;
+    margin: 10px 0 -10px 0;
+}
+
+.icon-list > li {
+    border: none;
+    border-radius: 20px;
+    background-color: #c5ebbc;
+}
+
+.icon-list > li > ol > li {
+    font-style: italic;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
 }
 
 ol {
-    padding-left: 25px;
+    padding: 2.5px 10px 0px 25px;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 700px) {
+    .icons {
+        max-width: 1900px;
+        padding: 10px 0 14% 0;
+    }
+
+    .icon-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+        gap: 2%;
+        margin: -15px 1.5%;
+        padding: 8% 0.5%;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .icon-list > li {
+        padding: 10px 0 20px 5px;
+    }
+
+    .icon-list > li > img {
+        width: 40px;
+        height: 40px;
+        padding-left: 2.5%;
+    }
+
+    .icon-list > li > ol > li {
+        font-size: calc(1px + 1rem);
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1500px) {
+    .icons {
+        max-width: 1900px;
+        padding: 10px 0 9% 0;
+    }
+
+    .icon-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+        gap: 4%;
+        margin: 30px 7%;
+        padding: 3% 2.5%;
+        border: none;
+        border-radius: 20px;
+        background-color: #cdf5fd;
+    }
+
+    .icon-list > li {
+        padding: 25px 20px 40px 15px;
+    }
+
+    .icon-list > li > img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+    .icons {
+        max-width: 1900px;
+        padding: 10px 0 8% 0;
+    }
+
+    .icon-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 2fr));
+        gap: 5%;
+        margin: 20px 4% 50px 4%;
+        padding: 1% 3.5%;
+        border: none;
+        border-radius: 20px;
+        background-color: #cdf5fd;
+    }
+
+    .icon-list > li {
+        padding: 25px;
+    }
+
+    .icon-list > li > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-list > li > ol > li {
+        font-weight: 350;
+    }
 }
