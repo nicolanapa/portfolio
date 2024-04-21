@@ -54,12 +54,12 @@ body {
     font-weight: 600;
     text-decoration: none;
     text-align: center;
-    color: #00a9ff;
+    color: #006fa6;
     align-items: center;
 }
 
 .link:visited {
-    color: #00a9ff;
+    color: #006fa6;
 }
 
 .header:link {
