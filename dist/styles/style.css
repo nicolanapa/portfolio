@@ -144,7 +144,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 700px) {
     .header-left {
         display: flex;
         visibility: visible;

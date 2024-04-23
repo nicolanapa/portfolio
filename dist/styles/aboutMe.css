@@ -76,7 +76,7 @@ ol {
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
     .icons {
-        padding: 10px 0 20% 0;
+        padding: 10px 0 20.5% 0;
     }
 
     .icon-list {
@@ -104,7 +104,7 @@ ol {
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1300px) {
+@media only screen and (min-width: 700px) and (max-width: 1300px) {
     .icons {
         width: calc(90% - 60px);
         padding: 10px 0 150px 0;
@@ -131,7 +131,7 @@ ol {
     }
 }
 
-@media only screen and (min-width: 1301px) {
+@media only screen and (min-width: 1300px) {
     .icons {
         width: calc(80% - 60px);
         padding: 20px 0 50px 0;

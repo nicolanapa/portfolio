@@ -79,7 +79,7 @@
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1500px) {
+@media only screen and (min-width: 700px) and (max-width: 1500px) {
     .projects-container {
         grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
         gap: 2.5%;
@@ -112,7 +112,7 @@
     }
 }
 
-@media only screen and (min-width: 1501px) {
+@media only screen and (min-width: 1500px) {
     .projects-container {
         grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
         gap: 2.5%;
