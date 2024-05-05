@@ -37,6 +37,7 @@
 .image,
 .mobile-image {
     display: flex;
+    justify-content: center;
     width: clamp(20px, 400px, 70%);
     margin: 5px;
 }

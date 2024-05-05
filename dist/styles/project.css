@@ -11,11 +11,19 @@
     padding: 2.5px 3.5% 1.5px 0.05%;
 }
 
-@media only screen and (min-width: 1501px) {
+.description-image {
+    display: flex;
+    justify-content: center;
+    /*              min, prefered, max */
+    font-size: clamp(6px, 16px, 20px);
+    font-weight: 200;
+}
+
+@media only screen and (min-width: 1200px) {
     .project {
-        max-width: 2000px;
-        grid-template-columns: 1fr 0.8fr;
-        margin: 35px 15%;
+        max-width: 2200px;
+        grid-template-columns: 1fr 1.2fr;
+        margin: 35px 8%;
     }
 
     .description {
@@ -28,8 +36,16 @@
         visibility: hidden;
     }
 
-    .image {
+    .image-container {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         visibility: visible;
+        margin: 5px;
+    }
+
+    .image {
+        width: clamp(200px, 600px, 90%);
+        height: auto;
     }
 }
