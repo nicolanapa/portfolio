@@ -9,7 +9,7 @@
 
 .project {
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.8fr;
     grid-template-rows: 1fr;
     gap: 10px;
     padding: 5px;
@@ -89,7 +89,7 @@
     }
 
     .project {
-        grid-template-columns: 1fr 0.95fr;
+        grid-template-columns: 1fr 1.2fr;
         padding: 7.5px;
         margin: 25px 3.5%;
 
@@ -122,9 +122,9 @@
     }
 
     .project {
-        grid-template-columns: 1fr 0.8fr;
+        grid-template-columns: 1fr 1.4fr;
         padding: 9px;
-        margin: 25px 5%;
+        margin: 25px 5% 10px 5%;
 
         border: none;
         background-color: #cdf5fd;
