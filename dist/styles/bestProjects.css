@@ -52,8 +52,8 @@
 
     .project {
         grid-template-columns: 1fr;
-        padding: 7px;
-        margin: 10px 1.5%;
+        padding: 6px;
+        margin: 10px 1.3%;
 
         border: none;
         background-color: #cdf5fd;
