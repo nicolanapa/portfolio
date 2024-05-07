@@ -205,7 +205,6 @@
     grid-template-columns: repeat(auto-fit, minmax(10px, 30px));
     justify-content: space-around;
     margin: 7.5px 5px -5px 5px;
-
 }
 
 .circle.html {
