@@ -177,6 +177,7 @@
 .circle-information-container {
     display: flex;
     justify-content: space-around;
+    overflow-x: auto;
 }
 
 .circle-information {
@@ -185,6 +186,7 @@
     border-radius: 20px;
     background-color: #cdf5fd;
     font-weight: 300;
+    flex-shrink: 0;
 }
 
 .circle-information > div {
@@ -207,4 +209,8 @@
 
 .circle.js {
     background-color: chocolate;
+}
+
+.circle.cpp {
+    background-color: yellow;
 }
