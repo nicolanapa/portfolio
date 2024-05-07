@@ -195,15 +195,18 @@
 }
 
 .circle {
-    width: clamp(10px, 20px, 30px);
-    height: clamp(10px, 20px, 30px);
+    width: clamp(8px, 20px, 30px);
+    height: clamp(8px, 20px, 30px);
     border-radius: 50%;
 }
 
 .circle-title-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10px, 30px));
+    grid-template-columns: repeat(auto-fit, minmax(8px, 30px));
     justify-content: space-around;
+    background-color: #b1ecf8;
+    border-radius: 20px;
+    padding: 8px 1.5px;
     margin: 7.5px 5px -5px 5px;
 }
 
@@ -212,11 +215,11 @@
 }
 
 .circle.css {
-    background-color: rgb(222, 109, 109);
+    background-color: rgb(194, 68, 68);
 }
 
 .circle.js {
-    background-color: rgb(133, 55, 0);
+    background-color: rgb(109, 7, 234);
 }
 
 .circle.cpp {
