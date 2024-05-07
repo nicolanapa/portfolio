@@ -195,23 +195,31 @@
 }
 
 .circle {
-    width: clamp(10px, 20px, 40px);
-    height: clamp(10px, 20px, 40px);
+    width: clamp(10px, 20px, 30px);
+    height: clamp(10px, 20px, 30px);
     border-radius: 50%;
 }
 
+.circle-title-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 30px));
+    justify-content: space-around;
+    margin: 7.5px 5px -5px 5px;
+
+}
+
 .circle.html {
-    background-color: green;
+    background-color: rgb(157, 188, 157);
 }
 
 .circle.css {
-    background-color: red;
+    background-color: rgb(222, 109, 109);
 }
 
 .circle.js {
-    background-color: chocolate;
+    background-color: rgb(133, 55, 0);
 }
 
 .circle.cpp {
-    background-color: yellow;
+    background-color: rgb(62, 133, 255);
 }
