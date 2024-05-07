@@ -200,10 +200,6 @@
     border-radius: 50%;
 }
 
-.circle-padding {
-    /*padding: 10px;*/
-}
-
 .circle.html {
     background-color: green;
 }
