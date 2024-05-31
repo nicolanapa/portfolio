@@ -19,6 +19,12 @@
     font-weight: 200;
 }
 
+.repository {
+    width: calc(1em + 6px);
+    height: calc(1em + 6px);
+    transform: translate(10px, 4.5px);
+}
+
 @media only screen and (min-width: 1200px) {
     .project {
         max-width: 2200px;
@@ -45,7 +51,7 @@
     }
 
     .image {
-        width: clamp(200px, 600px, 90%);
+        width: clamp(250px, 700px, 95%);
         height: auto;
     }
 }
