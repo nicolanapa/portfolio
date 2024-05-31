@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="apple-mobile-web-app-title" content="Nicolanapa's Website" />
+        <meta name="application-name" content="Nicolanapa's Website" />
+        <meta name="msapplication-TileColor" content="#eef5ff" />
+        <meta name="msapplication-TileImage" content="https://nicolanapa.duckdns.org/images/favicons/mstile-144x144.png" />
+        <meta name="msapplication-config" content="https://nicolanapa.duckdns.org/images/favicons/browserconfig.xml" />
+        <meta name="theme-color" content="#eef5ff" />
+
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="
+            default-src 'self' data: gap: https://ssl.gstatic.com ; 
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com;
+            img-src 'self' data: https: content:;
+            media-src 'self' *;
+            "
+        />
+        <meta
+            name="description"
+            content="Project: Tic-Tac-Toe, this project comes from 'The Odin Project' and it's a made-in-Javascript Tic-Tac-Toe game"
+        />
+        <title>Project: Tic-Tac-Toe</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://nicolanapa.duckdns.org/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://nicolanapa.duckdns.org/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="194x194" href="https://nicolanapa.duckdns.org/images/favicons/favicon-194x194.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="https://nicolanapa.duckdns.org/images/favicons/android-chrome-192x192.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://nicolanapa.duckdns.org/images/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="https://nicolanapa.duckdns.org/images/favicons/site.webmanifest" />
+        <link rel="mask-icon" href="https://nicolanapa.duckdns.org/images/favicons/safari-pinned-tab.svg" color="#000000" />
+        <link rel="shortcut icon" href="https://nicolanapa.duckdns.org/images/favicons/favicon.ico" />
+
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="stylesheet" href="../styles/bestProjects.css" />
+        <link rel="stylesheet" href="../styles/project.css" />
+    </head>
+    <body>
+        <div class="bottom-border">
+            <div class="header">
+                <!-- HEADER LEFT -->
+                <div class="header-left">
+                    <img
+                        id="profile-picture"
+                        src="../images/githubProfilePictureCompressed.webp"
+                        alt="My profile picture of my Github account"
+                        height="60px"
+                        width="30px"
+                    />
+
+                    <h2 class="index-title">
+                        <a class="header link" href="../index.html">Nicolanapa</a>
+                    </h2>
+                </div>
+
+                <div style="padding-left: 10px" class="header-left-mobile">
+                    <a class="header link" href="../index.html"
+                        ><img
+                            class="actual-tab"
+                            id="profile-picture"
+                            src="../images/githubProfilePictureCompressed.webp"
+                            alt="My profile picture of my Github account, linking to the Home"
+                    /></a>
+                </div>
+
+                <!-- HEADER CENTRAL -->
+                <div class="header-center">
+                    <div></div>
+                    <div></div>
+                    <h1 class="actual-tab actual-project">
+                        <a class="header link" href="../bestProjects.html">Best Projects</a>
+                    </h1>
+                    <div><a class="header link" href="#">Random Project</a></div>
+                    <div><a class="header link" href="../aboutMe.html">About me</a></div>
+                    <div></div>
+                </div>
+
+                <div class="header-center-mobile">
+                    <div class="actual-tab actual-project">
+                        <a class="header link" href="../bestProjects.html"
+                            ><img
+                                id="best-projects-svg"
+                                src="../images/bestProjectsIcon.svg"
+                                alt="Best Projects icon pointing to the Best Projects Page"
+                        /></a>
+                    </div>
+                    <div>
+                        <a class="header link" href="#"
+                            ><img
+                                id="random-project-svg"
+                                src="../images/randomProjectIcon.svg"
+                                alt="Random Project icon pointing to a Random Project"
+                        /></a>
+                    </div>
+                    <div>
+                        <a class="header link" href="../aboutMe.html"
+                            ><img id="about-me-svg" src="../images/aboutMeIcon.svg" alt="About me icon pointing to the About me Page"
+                        /></a>
+                    </div>
+                </div>
+
+                <!-- HEADER RIGHT -->
+                <div class="header-right">
+                    <div class="dark-light-mode">
+                        <img
+                            class="light-color"
+                            id="dark-light-mode-svg"
+                            src="../images/darkLightMode.svg"
+                            alt="A image button for the dark and light mode"
+                            height="60px"
+                            width="60px"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-left">
+                <h3 class="title"><a class="link" href="https://nicolanapa.github.io/battleship/">BattleShip</a></h3>
+
+                <p class="description">BattleShip</p>
+
+                <p class="description">BattleShip</p>
+
+                <p class="description">
+                    It's done in HTML, CSS and JavaScript but my focus was more on the Code part instead of styling. It's from the course "The
+                    Odin Project"
+                </p>
+
+                <!-- IMAGES and DESCRIPTIONS-->
+                <img
+                    class="mobile-image"
+                    src="../images/projects/battleShip/battleShip-frontPageMobile.png"
+                    alt="Image representing the Project 'BattleShip', Fullscreen Mobile-view Image"
+                    width="400px"
+                    height="auto"
+                />
+
+                <p class="description-image mobile-image">Mobile view, Front-Page of this Project but taken Fullscreen</p>
+
+                <img
+                    class="mobile-image"
+                    src="../images/projects/battleShip/battleShip-frontPageMobileWinning.png"
+                    alt="Image representing the Project 'BattleShip', Fullscreen Mobile-view Winning Status"
+                    width="400px"
+                    height="auto"
+                />
+
+                <p class="description-image mobile-image">Mobile view, an example of a Player winning but taken Fullscreen</p>
+            </div>
+
+            <div class="project-right">
+                <!-- Image or Gif -->
+                <div class="image-container">
+                    <img
+                        class="image"
+                        src="../images/projects/battleShip/battleShip-frontPageDesktop.png"
+                        alt="Image representing the Project 'BattleShip', Desktop-view Image"
+                        width="400px"
+                        height="auto"
+                    />
+
+                    <p class="description-image image">Desktop view, Front-Page of this Project</p>
+                </div>
+
+                <div class="image-container">
+                    <img
+                        class="image"
+                        src="../images/projects/battleShip/battleShip-frontPageDesktopWinning.png"
+                        alt="Image representing the Project 'BattleShip', Desktop-view Winning Status"
+                        width="400px"
+                        height="auto"
+                    />
+
+                    <p class="description-image image">Desktop view, an example of a Player winning</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
