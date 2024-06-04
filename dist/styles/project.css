@@ -21,8 +21,8 @@
 
 .repository,
 .website {
-    width: calc(1em + 12px);
-    height: calc(1em + 12px);
+    width: calc(1em + 14px);
+    height: calc(1em + 14px);
     padding: 7.5px 10px;
     margin-right: 5px;
 }
