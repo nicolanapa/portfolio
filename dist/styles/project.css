@@ -19,10 +19,18 @@
     font-weight: 200;
 }
 
-.repository {
-    width: calc(1em + 6px);
-    height: calc(1em + 6px);
-    transform: translate(10px, 4.5px);
+.repository,
+.website {
+    width: calc(1em + 12px);
+    height: calc(1em + 12px);
+    padding: 7.5px 10px;
+    margin-right: 5px;
+}
+
+.icon-holder {
+    /* Kept display: flex; due to strange line in the projectWebsite.svg icon*/
+    display: flex;
+    margin: -12.5px 0 0 20px;
 }
 
 @media only screen and (min-width: 1200px) {
