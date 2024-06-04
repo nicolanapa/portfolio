@@ -90,6 +90,12 @@ body {
     animation: rotation 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+.dark-light-mode {
+    padding: 5px;
+    background-color: white;
+    border: none;
+}
+
 @media only screen and (min-width: 50px) and (max-width: 700px) {
     .header-left {
         display: none;
