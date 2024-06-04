@@ -189,7 +189,7 @@
     flex-shrink: 0;
 }
 
-.circle-information > div {
+.circle-information > * {
     margin: 0 10px 0 5px;
 }
 
