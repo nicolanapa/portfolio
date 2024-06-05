@@ -33,6 +33,13 @@
     align-items: center;
 }
 
+.project-right > figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .image,
 .mobile-image {
     display: flex;
