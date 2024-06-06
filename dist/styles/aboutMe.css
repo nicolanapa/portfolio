@@ -60,6 +60,14 @@
     border: none;
     border-radius: 20px;
     background-color: #c5ebbc;
+    transition: background-color 2s ease-out;
+}
+
+.icon-list > li:hover,
+.icon-list > li:focus,
+.icon-list > li:active {
+    background-color: #b5e9aa;
+    transition: background-color 1s ease-in;
 }
 
 .icon-list > li > ol > li {
