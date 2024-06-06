@@ -118,90 +118,92 @@
             </div>
         </nav>
 
-        <article class="project">
-            <div class="project-left">
-                <h3 class="title">ToDo-List</h3>
+        <main>
+            <article class="project">
+                <div class="project-left">
+                    <h3 class="title">ToDo-List</h3>
 
-                <div class="icon-holder">
-                    <a href="https://nicolanapa.github.io/todo-list/">
-                        <img class="website" src="../images/projectWebsite.svg" alt="Website of the Project 'ToDo-List'" />
-                    </a>
+                    <div class="icon-holder">
+                        <a href="https://nicolanapa.github.io/todo-list/">
+                            <img class="website" src="../images/projectWebsite.svg" alt="Website of the Project 'ToDo-List'" />
+                        </a>
 
-                    <a href="https://github.com/nicolanapa/todo-list"
-                        ><img class="repository" src="../images/githubMark.svg" alt="Repository of the Project 'ToDo-List'"
-                    /></a>
+                        <a href="https://github.com/nicolanapa/todo-list"
+                            ><img class="repository" src="../images/githubMark.svg" alt="Repository of the Project 'ToDo-List'"
+                        /></a>
+                    </div>
+
+                    <p class="description">
+                        This is a ToDo website which features the creating of ToDos, Projects and the ability to view/edit/delete the single ToDo
+                    </p>
+
+                    <p class="description">
+                        The UI is entirely in Italian while some buttons are in English, I'm thinking about changing it to English-only.
+                    </p>
+
+                    <p class="description">
+                        This was a fun Project (from the course "The Odin Project") and took some time (a month circa) by using HTML, CSS and
+                        JavaScript. It was a way bigger Project than the others I worked on before.
+                    </p>
+
+                    <p class="description">
+                        There's a known bug which sometimes deletes the default Project and appends a ToDo to the wrong Project (and removes that
+                        Project after reloading the site), I guess it's some bugged JavaScript code. As a temporary solution to this bug I've
+                        added a "Delete all ToDos/Projects" button (that just empties the localStorage and refreshed the Page). I might try
+                        fixing it when I'll have some free time.
+                    </p>
+
+                    <!-- IMAGES and DESCRIPTIONS-->
+                    <img
+                        class="mobile-image"
+                        src="../images/projects/todoList/todoList-frontPageDesktopCutted.png"
+                        alt="Image representing the Front-Page of this Project but resized for a better Mobile view"
+                        width="400px"
+                        height="auto"
+                    />
+
+                    <p class="description-image mobile-image">Resized, Front-Page of this Project</p>
+
+                    <img
+                        class="mobile-image"
+                        src="../images/projects/todoList/todoList-todoViewDesktopCutted.png"
+                        alt="Image representing the ToDo view of a ToDo but resized for a better Mobile view"
+                        width="400px"
+                        height="auto"
+                    />
+
+                    <p class="description-image mobile-image">Resized, ToDo view of a ToDo</p>
+
+                    <!-- Add a create/modify view of ToDos and create Project view (maybe)-->
                 </div>
 
-                <p class="description">
-                    This is a ToDo website which features the creating of ToDos, Projects and the ability to view/edit/delete the single ToDo
-                </p>
+                <div class="project-right">
+                    <!-- Image or Gif -->
+                    <figure class="image-container">
+                        <img
+                            class="image"
+                            src="../images/projects/todoList/todoList-frontPageDesktop.png"
+                            alt="Image representing Front-Page of this Project"
+                            width="400px"
+                            height="auto"
+                        />
 
-                <p class="description">
-                    The UI is entirely in Italian while some buttons are in English, I'm thinking about changing it to English-only.
-                </p>
+                        <figcaption class="description-image image">Desktop view, the Front-Page of this Project</figcaption>
+                    </figure>
 
-                <p class="description">
-                    This was a fun Project (from the course "The Odin Project") and took some time (a month circa) by using HTML, CSS and
-                    JavaScript. It was a way bigger Project than the others I worked on before.
-                </p>
+                    <figure class="image-container">
+                        <img
+                            class="image"
+                            src="../images/projects/todoList/todoList-todoViewDesktop.png"
+                            alt="Image representing the view mode of a ToDo"
+                            width="400px"
+                            height="auto"
+                        />
 
-                <p class="description">
-                    There's a known bug which sometimes deletes the default Project and appends a ToDo to the wrong Project (and removes that
-                    Project after reloading the site), I guess it's some bugged JavaScript code. As a temporary solution to this bug I've added a
-                    "Delete all ToDos/Projects" button (that just empties the localStorage and refreshed the Page). I might try fixing it when
-                    I'll have some free time.
-                </p>
-
-                <!-- IMAGES and DESCRIPTIONS-->
-                <img
-                    class="mobile-image"
-                    src="../images/projects/todoList/todoList-frontPageDesktopCutted.png"
-                    alt="Image representing the Front-Page of this Project but resized for a better Mobile view"
-                    width="400px"
-                    height="auto"
-                />
-
-                <p class="description-image mobile-image">Resized, Front-Page of this Project</p>
-
-                <img
-                    class="mobile-image"
-                    src="../images/projects/todoList/todoList-todoViewDesktopCutted.png"
-                    alt="Image representing the ToDo view of a ToDo but resized for a better Mobile view"
-                    width="400px"
-                    height="auto"
-                />
-
-                <p class="description-image mobile-image">Resized, ToDo view of a ToDo</p>
-
-                <!-- Add a create/modify view of ToDos and create Project view (maybe)-->
-            </div>
-
-            <div class="project-right">
-                <!-- Image or Gif -->
-                <figure class="image-container">
-                    <img
-                        class="image"
-                        src="../images/projects/todoList/todoList-frontPageDesktop.png"
-                        alt="Image representing Front-Page of this Project"
-                        width="400px"
-                        height="auto"
-                    />
-
-                    <figcaption class="description-image image">Desktop view, the Front-Page of this Project</figcaption>
-                </figure>
-
-                <figure class="image-container">
-                    <img
-                        class="image"
-                        src="../images/projects/todoList/todoList-todoViewDesktop.png"
-                        alt="Image representing the view mode of a ToDo"
-                        width="400px"
-                        height="auto"
-                    />
-
-                    <figcaption class="description-image image">Desktop view, the ToDo view of a ToDo</figcaption>
-                </figure>
-            </div>
-        </article>
+                        <figcaption class="description-image image">Desktop view, the ToDo view of a ToDo</figcaption>
+                    </figure>
+                </div>
+            </article>
+        </main>
     </body>
 </html>
