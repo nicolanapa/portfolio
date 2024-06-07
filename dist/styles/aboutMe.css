@@ -4,7 +4,6 @@
 
 .copyright-full,
 .icons-full {
-    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -84,6 +83,10 @@ ol {
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
+    .icons-full {
+        max-height: 610px;
+    }
+
     .icons {
         padding: 10px 0 20px 0;
     }
@@ -114,6 +117,10 @@ ol {
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1300px) {
+    .icons-full {
+        max-height: 660px;
+    }
+
     .icons {
         width: calc(90% - 60px);
         padding: 10px 0 25px 0;
@@ -141,6 +148,10 @@ ol {
 }
 
 @media only screen and (min-width: 1300px) {
+    .icons-full {
+        max-height: 910px;
+    }
+
     .icons {
         width: calc(80% - 60px);
         padding: 20px 0 25px 0;
