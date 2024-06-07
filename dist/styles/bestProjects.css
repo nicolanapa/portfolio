@@ -231,3 +231,16 @@
 .circle.cpp {
     background-color: rgb(62, 133, 255);
 }
+
+.little,
+.little-mobile {
+    font-size: calc(1em - 4px);
+}
+
+.little {
+    margin-top: -1px;
+}
+
+.little-mobile {
+    margin-top: -10px;
+}
