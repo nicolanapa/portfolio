@@ -81,6 +81,14 @@
 }
 
 * {
+    font-family: "Roboto Flex", "Roboto Condensed", system-ui;
+}
+
+.title {
+    font-family: "Roboto Flex", "Roboto Condensed", system-ui;
+}
+
+.description {
     font-family: "Roboto Condensed", "Roboto Flex", system-ui;
 }
 
