@@ -232,6 +232,10 @@
     background-color: rgb(62, 133, 255);
 }
 
+.circle.react {
+    background-color: #58c4dc;
+}
+
 .little,
 .little-mobile {
     font-size: calc(1em - 4px);
