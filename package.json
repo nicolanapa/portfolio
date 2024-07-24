@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "git": "git subtree push --prefix dist origin gh-pages"
@@ -11,8 +12,8 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "eslint": "^9.4.0",
+        "eslint": "^9.7.0",
         "eslint-config-prettier": "^9.1.0",
-        "prettier": "3.3.1"
+        "prettier": "3.3.3"
     }
 }
