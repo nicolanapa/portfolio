@@ -41,6 +41,7 @@
     }
 
     .description {
+        font-family: "Roboto Flex", "Roboto Condensed", system-ui;
         font-weight: 400;
         padding: 5px 5.5% 2.5px 2.5%;
     }
