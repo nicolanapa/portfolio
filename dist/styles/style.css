@@ -17,7 +17,7 @@ body {
 }
 
 .bottom-border {
-    border-bottom: 2px solid rgb(100, 100, 100);
+    border-bottom: 2px solid #c3c3c3;
 }
 
 .header {
@@ -94,6 +94,10 @@ body {
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
+    .bottom-border {
+        border-bottom: 2px solid rgb(100, 100, 100);
+    }
+
     .header-left {
         display: none;
         visibility: hidden;
@@ -145,6 +149,15 @@ body {
     #random-project-svg {
         width: 30px;
         height: 30px;
+    }
+
+    #dark-light-mode-svg {
+        margin-top: 4px;
+    }
+
+    /* Black color for light mode of the darkLightMode.svg*/
+    .light-color {
+        filter: brightness(0) saturate(100%);
     }
 }
 
