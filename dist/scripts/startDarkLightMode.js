@@ -27,16 +27,21 @@ function toLightMode() {
 function toDarkMode() {
     console.log("SWITCHING TO DARK MODE");
 
-    themeLink.href = "./styles/darkMode/darkMode.css";
-
     if (aboutMeLink !== null) {
         aboutMeLink.href = "./styles/darkMode/aboutMe.css";
     }
-    if (bestProjectsLink !== null) {
-        bestProjectsLink.href = "./styles/lightMode/projects.css";
-    }
-    if (projectsLink !== null) {
-        projectsLink.href = "./styles/lightMode/projects.css";
+    // When it's in the projects directory
+    if (projectsLink === null) {
+        themeLink.href = "./styles/darkMode/darkMode.css";
+        if (bestProjectsLink !== null) {
+            bestProjectsLink.href = "./styles/darkMode/bestProjects.css";
+        }
+    } else if (projectsLink !== null) {
+        themeLink.href = "../styles/darkMode/darkMode.css";
+        projectsLink.href = "../styles/darkMode/projects.css";
+        if (bestProjectsLink !== null) {
+            bestProjectsLink.href = "../styles/darkMode/bestProjects.css";
+        }
     }
 }
 
