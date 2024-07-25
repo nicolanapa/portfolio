@@ -12,14 +12,6 @@
     padding: 0;
 }
 
-body {
-    background-color: white;
-}
-
-.bottom-border {
-    border-bottom: 1.5px solid #c3c3c3;
-}
-
 .header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -62,26 +54,15 @@ body {
 .header:link,
 .header:visited {
     font-weight: 700;
-    color: black;
 }
 
 /*.header:visited {
     color: blue;
 }*/
 
-.header-left h1 a:link,
-.header-left h1 a:visited {
-    color: blue;
-}
-
 .header-right {
     justify-content: flex-end;
     border-left: none;
-}
-
-/* Blue color for light mode of the darkLightMode.svg*/
-.light-color {
-    filter: invert(8%) sepia(100%) saturate(7482%) hue-rotate(248deg) brightness(96%) contrast(144%);
 }
 
 .actual-tab {
@@ -91,12 +72,6 @@ body {
 
 #dark-light-mode-svg {
     animation: rotation 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.dark-light-mode {
-    padding: 5px;
-    background-color: white;
-    border: none;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
@@ -168,6 +143,10 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
+    .bottom-border {
+        border-bottom: 1.5px solid #c3c3c3;
+    }
+
     .header-left {
         display: flex;
         visibility: visible;
