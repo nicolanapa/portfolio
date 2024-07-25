@@ -16,6 +16,8 @@ darkLightModeButton.addEventListener("click", (Event) => {
     } else if (localStorage.getItem("darkLightMode") === "dark") {
         localStorage.setItem("darkLightMode", "light");
         toLightMode();
+    } else {
+        console.log(new Error("darkLightMode can't get right Mode"));
     }
 });
 
