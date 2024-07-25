@@ -17,7 +17,7 @@ body {
 }
 
 .bottom-border {
-    border-bottom: 2px solid #c3c3c3;
+    border-bottom: 1.5px solid #c3c3c3;
 }
 
 .header {
@@ -59,12 +59,18 @@ body {
     color: #006fa6;
 }
 
-.header:link {
+.header:link,
+.header:visited {
     font-weight: 700;
-    color: blue;
+    color: black;
 }
 
-.header:visited {
+/*.header:visited {
+    color: blue;
+}*/
+
+.header-left h1 a:link,
+.header-left h1 a:visited {
     color: blue;
 }
 
