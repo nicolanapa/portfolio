@@ -1,2 +1,6 @@
 /* All light mode styles + Transition while switching */
 
+body {
+    background-color: white;
+}
+

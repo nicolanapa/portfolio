@@ -1,2 +1,5 @@
 /* All dark mode styles +  Transition while switching */
 
+body {
+    background-color: black;
+}
