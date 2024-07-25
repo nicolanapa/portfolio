@@ -2,12 +2,12 @@ const themeLink = document.querySelector("#theme-mode");
 
 function toLightMode() {
     console.log("SWITCHING TO LIGHT MODE");
-    themeLink.href = "./styles/lightMode.css";
+    themeLink.href = "./styles/lightMode/lightMode.css";
 }
 
 function toDarkMode() {
     console.log("SWITCHING TO DARK MODE");
-    themeLink.href = "./styles/darkMode.css";
+    themeLink.href = "./styles/darkMode/darkMode.css";
 }
 
 if (localStorage.getItem("darkLightMode") === "light") {
@@ -15,11 +15,10 @@ if (localStorage.getItem("darkLightMode") === "light") {
     toLightMode();
 } else if (localStorage.getItem("darkLightMode") === "dark") {
     console.log("DARK MODE AT START");
-    toDarkMode();
 } else if (localStorage.getItem("darkLightMode") === "") {
     console.log("DEFAULT MODE AT START");
-    localStorage.setItem("darkLightMode", "light");
-    toLightMode();
+    localStorage.setItem("darkLightMode", "dark");
 }
 
 export { toLightMode, toDarkMode };
+
