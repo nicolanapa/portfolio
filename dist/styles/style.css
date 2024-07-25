@@ -43,12 +43,7 @@
     font-weight: 600;
     text-decoration: none;
     text-align: center;
-    color: #006fa6;
     align-items: center;
-}
-
-.link:visited {
-    color: #006fa6;
 }
 
 .header:link,
@@ -72,6 +67,11 @@
 
 #dark-light-mode-svg {
     animation: rotation 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.dark-light-mode {
+    padding: 5px;
+    border: none;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
