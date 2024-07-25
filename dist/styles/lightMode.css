@@ -4,7 +4,10 @@ body {
     background-color: white;
 }
 
-/* link */
+.link:link,
+.link:visited {
+    color: #006fa6;
+}
 
 .header:link,
 .header:visited {
@@ -27,9 +30,7 @@ body {
 }
 
 .dark-light-mode {
-    padding: 5px;
     background-color: white;
-    border: none;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
