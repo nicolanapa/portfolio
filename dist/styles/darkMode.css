@@ -4,15 +4,49 @@ body {
     background-color: #0d1117;
 }
 
-.bottom-border {
-    border-bottom: 1.5px solid #c3c3c3;
+.link:link,
+.link:visited {
+    color: #006fa6;
 }
 
-/**/
+.header:link,
+.header:visited {
+    font-weight: 700;
+    color: black;
+}
+
+/*.header:visited {
+    color: blue;
+}*/
+
+.header-left h1 a:link,
+.header-left h1 a:visited {
+    color: blue;
+}
+
+/* White color for dark mode of the darkLightMode.svg*/
+.light-color {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
+}
 
 .dark-light-mode {
-    padding: 5px;
     background-color: #0d1117;
-    border: none;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 700px) {
+    .bottom-border {
+        border-bottom: 2px solid rgb(100, 100, 100);
+    }
+
+    /* Black color for light mode of the darkLightMode.svg*/
+    .light-color {
+        filter: brightness(0) saturate(100%);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .bottom-border {
+        border-bottom: 1.5px solid #c3c3c3;
+    }
 }
 
