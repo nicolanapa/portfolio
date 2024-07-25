@@ -1,0 +1,32 @@
+.copyright {
+    background-color: #cdf5fd;
+}
+
+.icons {
+    background-color: #cdf5fd;
+}
+
+.icon-list > li {
+    background-color: #c5ebbc;
+    transition: background-color 2s ease-out;
+}
+
+.icon-list > li:hover,
+.icon-list > li:focus,
+.icon-list > li:active {
+    background-color: #b5e9aa;
+    transition: background-color 1s ease-in;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1300px) {
+    .icon-list {
+        background-color: #cdf5fd;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .icon-list {
+        background-color: #cdf5fd;
+    }
+}
+
