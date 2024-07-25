@@ -75,10 +75,6 @@
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
-    .bottom-border {
-        border-bottom: 2px solid rgb(100, 100, 100);
-    }
-
     .header-left {
         display: none;
         visibility: hidden;
@@ -135,18 +131,9 @@
     #dark-light-mode-svg {
         margin-top: 4px;
     }
-
-    /* Black color for light mode of the darkLightMode.svg*/
-    .light-color {
-        filter: brightness(0) saturate(100%);
-    }
 }
 
 @media only screen and (min-width: 700px) {
-    .bottom-border {
-        border-bottom: 1.5px solid #c3c3c3;
-    }
-
     .header-left {
         display: flex;
         visibility: visible;
