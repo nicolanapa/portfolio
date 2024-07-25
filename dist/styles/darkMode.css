@@ -1,5 +1,18 @@
 /* All dark mode styles +  Transition while switching */
 
 body {
-    background-color: black;
+    background-color: #0d1117;
 }
+
+.bottom-border {
+    border-bottom: 1.5px solid #c3c3c3;
+}
+
+/**/
+
+.dark-light-mode {
+    padding: 5px;
+    background-color: #0d1117;
+    border: none;
+}
+
