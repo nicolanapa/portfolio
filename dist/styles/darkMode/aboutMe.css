@@ -1,39 +1,14 @@
-@media only screen and (min-width: 50px) and (max-width: 700px) {
-    li img {
-        filter: brightness(0) saturate(100%);
-    }
-
-    .copyright,
-    .icons {
-        background-color: rgb(25, 41, 77);
-    }
-
-    .icon-list > li {
-        background-color: #c5ebbc;
-        transition: background-color 0.5s ease-out;
-    }
-
-    .icon-list > li:hover,
-    .icon-list > li:focus,
-    .icon-list > li:active {
-        background-color: #b5e9aa;
-        transition: background-color 2s ease-in;
-    }
+li img {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
 }
 
-@media only screen and (min-width: 700px) {
-    li img {
-        filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
-    }
+.copyright,
+.icons {
+    background-color: rgb(28, 49, 93);
+}
 
-    .copyright,
-    .icons {
-        background-color: rgb(28, 49, 93);
-    }
-
-    .icon-list > li {
-        color: #d9d9d9;
-        background-color: #0b1609;
-    }
+.icon-list > li {
+    color: #d9d9d9;
+    background-color: #0b1609;
 }
 
