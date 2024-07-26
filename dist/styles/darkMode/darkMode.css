@@ -40,6 +40,7 @@ figcaption {
 }
 
 /* White color for dark mode of SVGss*/
+.header-center-mobile .header.link img,
 .light-color {
     filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
 }
