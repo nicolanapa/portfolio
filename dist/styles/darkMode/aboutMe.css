@@ -10,14 +10,14 @@
 
     .icon-list > li {
         background-color: #c5ebbc;
-        transition: background-color 2s ease-out;
+        transition: background-color 0.5s ease-out;
     }
 
     .icon-list > li:hover,
     .icon-list > li:focus,
     .icon-list > li:active {
         background-color: #b5e9aa;
-        transition: background-color 1s ease-in;
+        transition: background-color 2s ease-in;
     }
 }
 
@@ -34,14 +34,6 @@
     .icon-list > li {
         color: #d9d9d9;
         background-color: #0b1609;
-        transition: background-color 2s ease-out;
-    }
-
-    .icon-list > li:hover,
-    .icon-list > li:focus,
-    .icon-list > li:active {
-        background-color: #142a10;
-        transition: background-color 1s ease-in;
     }
 }
 
