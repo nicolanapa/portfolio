@@ -1,0 +1,18 @@
+.copyright,
+.icons,
+.icon-lists {
+    background-color: #cdf5fd;
+}
+
+.icon-list > li {
+    background-color: #c5ebbc;
+    transition: background-color 0.5s ease-out;
+}
+
+.icon-list > li:hover,
+.icon-list > li:focus,
+.icon-list > li:active {
+    background-color: #b5e9aa;
+    transition: background-color 2s ease-in;
+}
+

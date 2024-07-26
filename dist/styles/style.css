@@ -12,14 +12,6 @@
     padding: 0;
 }
 
-body {
-    background-color: white;
-}
-
-.bottom-border {
-    border-bottom: 1.5px solid #c3c3c3;
-}
-
 .header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -51,37 +43,21 @@ body {
     font-weight: 600;
     text-decoration: none;
     text-align: center;
-    color: #006fa6;
     align-items: center;
-}
-
-.link:visited {
-    color: #006fa6;
 }
 
 .header:link,
 .header:visited {
     font-weight: 700;
-    color: black;
 }
 
 /*.header:visited {
     color: blue;
 }*/
 
-.header-left h1 a:link,
-.header-left h1 a:visited {
-    color: blue;
-}
-
 .header-right {
     justify-content: flex-end;
     border-left: none;
-}
-
-/* Blue color for light mode of the darkLightMode.svg*/
-.light-color {
-    filter: invert(8%) sepia(100%) saturate(7482%) hue-rotate(248deg) brightness(96%) contrast(144%);
 }
 
 .actual-tab {
@@ -94,16 +70,11 @@ body {
 }
 
 .dark-light-mode {
-    padding: 5px;
-    background-color: white;
+    padding: 10px 20px 10px 10px;
     border: none;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
-    .bottom-border {
-        border-bottom: 2px solid rgb(100, 100, 100);
-    }
-
     .header-left {
         display: none;
         visibility: hidden;
@@ -159,11 +130,6 @@ body {
 
     #dark-light-mode-svg {
         margin-top: 4px;
-    }
-
-    /* Black color for light mode of the darkLightMode.svg*/
-    .light-color {
-        filter: brightness(0) saturate(100%);
     }
 }
 

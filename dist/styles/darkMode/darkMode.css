@@ -1,0 +1,63 @@
+body {
+    background-color: #0d1117;
+}
+
+h2,
+h3 {
+    color: rgb(220, 220, 220);
+}
+
+p,
+li,
+figcaption {
+    color: #cfcfcf;
+}
+
+.bottom-border {
+    background-color: #0a1629;
+}
+
+.link:link,
+.link:visited {
+    /* TO CHANGE */
+    color: #ffffff;
+}
+
+.header:link,
+.header:visited {
+    /* TO CHANGE */
+    color: rgb(221, 221, 221);
+}
+
+/*.header:visited {
+    color: blue;
+}*/
+
+.header-left h1 a:link,
+.header-left h1 a:visited {
+    /* TO CHANGE */
+    color: #cecece;
+}
+
+/* White color for dark mode of SVGss*/
+.header-center-mobile .header.link img,
+.light-color {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
+}
+
+.dark-light-mode {
+    background-color: #0a1629;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 700px) {
+    .bottom-border {
+        border-bottom: 1.5px solid rgb(59, 59, 59);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .bottom-border {
+        border-bottom: 1.5px solid rgb(59, 59, 59);
+    }
+}
+

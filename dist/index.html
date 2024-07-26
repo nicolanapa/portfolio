@@ -29,7 +29,9 @@
 
         <link rel="stylesheet preload" href="./styles/font.css" as="style" />
         <link rel="stylesheet" href="./styles/style.css" />
-        <script defer src="./scripts/darkLightMode.js"></script>
+        <link rel="stylesheet" href="./styles/darkMode/darkMode.css" id="theme-mode" />
+        <script src="./scripts/startDarkLightMode.js" type="module"></script>
+        <script defer src="./scripts/darkLightMode.js" type="module"></script>
     </head>
     <body>
         <!-- Have to add a script which shows on mobile screens a little popup, which is pushed 
@@ -108,9 +110,14 @@
         </nav>
 
         <main>
-            <div style="padding: 50px">
-                <p><em>In Development!</em></p>
-            </div>
+            <!-- Can use the article inline-style background-color for the Projects Backgrounds-->
+            <article
+                style="display: inline-block; margin: 30px; padding: 20px; background-color: rgb(28, 49, 93); color: white; border-radius: 20px"
+            >
+                <h2>Announcing the new Dark-Light Mode!</h2>
+                <h3>In Development</h3>
+                <p style="color: white">Should be done</p>
+            </article>
         </main>
     </body>
 </html>
