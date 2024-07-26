@@ -5,7 +5,8 @@ body {
 }
 
 p,
-li {
+li,
+figcaption {
     color: #333333;
 }
 
