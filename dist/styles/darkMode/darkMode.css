@@ -3,9 +3,13 @@ body {
 }
 
 h2,
-h3,
-p {
-    color: white;
+h3 {
+    color: rgb(220, 220, 220);
+}
+
+p,
+li {
+    color: #cfcfcf;
 }
 
 .bottom-border {
