@@ -66,12 +66,17 @@
 }
 
 #dark-light-mode-svg {
-    animation: rotation 5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    animation: rotation 7.5s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .dark-light-mode {
     padding: 10px 20px 10px 10px;
     border: none;
+}
+
+.index-title {
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
@@ -163,9 +168,4 @@
         width: 30px;
         border-radius: 10%;
     }
-}
-
-.index-title {
-    font-size: 1.5rem;
-    margin-left: 10px;
 }
