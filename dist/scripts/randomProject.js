@@ -9,9 +9,11 @@ function loadRandomProject(e) {
     alert("If nothing loads then check your popup settings");
 
     window.open(
-        currentSubDomain === "nicolanapa"
+        (currentSubDomain === "nicolanapa"
             ? "https://nicolanapa.duckdns.org/projects/"
-            : "https://development.nicolanapa.duckdns.org/projects/" + allLinks[randomNumber] + ".html",
+            : "https://development.nicolanapa.duckdns.org/projects/") +
+            allLinks[randomNumber] +
+            ".html",
     );
 }
 
