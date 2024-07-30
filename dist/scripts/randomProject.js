@@ -1,4 +1,6 @@
-function loadRandomProject() {
+function loadRandomProject(e) {
+    e.preventDefault();
+
     const allLinks = ["todoList", "weatherApp", "ticTacToe", "battleShip", "memoryCard"];
     let randomNumber = Math.floor(Math.random() * allLinks.length);
     let currentSubDomain = window.location.host.split(".")[0];
