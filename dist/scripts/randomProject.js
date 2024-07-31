@@ -5,8 +5,8 @@ function loadRandomProject(e) {
     let randomNumber = Math.floor(Math.random() * allLinks.length);
     let currentSubDomain = window.location.host.split(".")[0];
 
-    console.log(currentSubDomain);
-    alert("If nothing loads then check your popup settings");
+    //console.log(currentSubDomain);
+    alert("WARNING: If nothing loads then your browser might have blocked the page/popup");
 
     window.open(
         (currentSubDomain === "nicolanapa"
