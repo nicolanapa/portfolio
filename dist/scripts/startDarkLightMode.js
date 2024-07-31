@@ -4,8 +4,6 @@ const bestProjectsLink = document.querySelector("#best-projects-mode");
 const projectsLink = document.querySelector("#projects-mode");
 
 function toLightMode() {
-    console.log("SWITCHING TO LIGHT MODE");
-
     if (aboutMeLink !== null) {
         aboutMeLink.href = "./styles/lightMode/aboutMe.css";
     }
@@ -25,8 +23,6 @@ function toLightMode() {
 }
 
 function toDarkMode() {
-    console.log("SWITCHING TO DARK MODE");
-
     if (aboutMeLink !== null) {
         aboutMeLink.href = "./styles/darkMode/aboutMe.css";
     }
@@ -46,14 +42,11 @@ function toDarkMode() {
 }
 
 if (localStorage.getItem("darkLightMode") === "light") {
-    console.log("LIGHT MODE AT START");
     localStorage.setItem("darkLightMode", "light");
     toLightMode();
 } else if (localStorage.getItem("darkLightMode") === "dark" || window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    console.log("DARK MODE AT START");
     localStorage.setItem("darkLightMode", "dark");
 } else if (localStorage.getItem("darkLightMode") === "") {
-    console.log("DEFAULT MODE AT START");
     localStorage.setItem("darkLightMode", "dark");
 }
 
