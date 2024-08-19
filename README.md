@@ -10,7 +10,7 @@ I might use Github Pages as a backup "page".
 
 ## Server's specs
 
-My server has those specs if you're interested:
+My server has these specs if you're interested:
 
 -   CPU
     -   i7-4770
