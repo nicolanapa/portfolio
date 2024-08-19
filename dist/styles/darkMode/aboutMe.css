@@ -1,10 +1,10 @@
-li img {
-    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
-}
-
 .copyright,
 .icons {
     background-color: rgb(28, 49, 93);
+}
+
+.icon-list img {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
 }
 
 .icon-list > li {
