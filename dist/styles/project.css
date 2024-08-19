@@ -16,7 +16,7 @@
     justify-content: center;
     /*              min, prefered, max */
     font-size: clamp(6px, 16px, 20px);
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .repository,
