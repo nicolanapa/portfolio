@@ -1,15 +1,15 @@
 # My portfolio
 
-This is my "portfolio/website" and it's currently hosted on my [Server](https://nicolanapa.duckdns.org).
+This is my "**portfolio/website**" and it's currently hosted on my [**Server**](https://nicolanapa.duckdns.org).
 If you're interested to see the new features from the [development](https://github.com/nicolanapa/portfolio/tree/development) branch you can check the
-[development subdomain](https://development.nicolanapa.duckdns.org/)
+[**development subdomain**](https://development.nicolanapa.duckdns.org/)
 
 ## Server's status
 
 If the site doesn't load, the server might be off.
 It's not always on.
 I might use Github Pages as a backup "page".
-If it's taking too long to load the website then the cause might be the DNS i'm using (duckDNS)
+If it's taking too long to load the website then the cause might be the DNS i'm using (Duck DNS)
 
 ## Server's specs
 
