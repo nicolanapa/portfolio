@@ -78,6 +78,40 @@ ol {
     padding: 2.5px 10px 0px 25px;
 }
 
+.me-title {
+    margin-left: 20%;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.languages-list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.languages-list > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.languages-list > li div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.level {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+
 @media only screen and (min-width: 50px) and (max-width: 700px) {
     .icons-full {
         max-height: 610px;
