@@ -84,9 +84,6 @@ ol {
     padding: 20px 30px;
 }
 
-.me-title {
-    margin-left: 20%;
-}
 
 .skill-container {
     display: flex;
@@ -97,13 +94,15 @@ ol {
 .languages-list {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 20px;
 }
 
 .languages-list > li {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     align-items: center;
-    gap: 30px;
+    border-bottom: 1px solid black;
+    border-radius: 0;
 }
 
 .level {
@@ -112,6 +111,15 @@ ol {
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
+    .me-title {
+        margin-left: 20%;
+    }
+    
+    .languages-list > li {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
     .icons-full {
         max-height: 610px;
     }
@@ -144,6 +152,15 @@ ol {
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1300px) {
+    .me-title {
+        margin-left: 30%;
+    }
+    
+    .languages-list > li {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
     .icons-full {
         max-height: 660px;
     }
@@ -173,6 +190,15 @@ ol {
 }
 
 @media only screen and (min-width: 1300px) {
+    .me-title {
+        margin-left: 40%;
+    }
+
+    .languages-list > li {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
     .icons-full {
         max-height: 910px;
     }
