@@ -17,6 +17,7 @@
     text-align: center;
 }
 
+.me-title,
 #copyright-title,
 #copyright-github-title,
 #icons-meaning {
@@ -80,7 +81,7 @@ ol {
 
 .me-container {
     margin: 20px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .me-title {
@@ -99,27 +100,15 @@ ol {
 }
 
 .languages-list > li {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content: space-around;
     gap: 30px;
-}
-
-.languages-list > li div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.languages-list > li img {
-    display: flex;
-    justify-self: flex-end;
 }
 
 .level {
     display: flex;
     justify-content: flex-end;
-    margin-left: 40px;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
