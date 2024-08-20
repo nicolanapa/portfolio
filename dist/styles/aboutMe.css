@@ -165,6 +165,10 @@ ol {
         gap: 30px;
     }
 
+    .level {
+        font-weight: 350;
+    }
+
     .icons-full {
         max-height: 660px;
     }
@@ -201,6 +205,10 @@ ol {
     .languages-list > li {
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
+    }
+
+    .level {
+        font-weight: 300;
     }
 
     .icons-full {
