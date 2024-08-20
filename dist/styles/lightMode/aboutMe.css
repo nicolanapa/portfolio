@@ -1,3 +1,7 @@
+.languages-list > li {
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
 .copyright,
 .icons,
 .icon-lists {

@@ -1,3 +1,7 @@
+.languages-list > li {
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
 .copyright,
 .icons {
     background-color: rgb(28, 49, 93);
