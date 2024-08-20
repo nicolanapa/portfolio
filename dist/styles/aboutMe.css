@@ -84,7 +84,6 @@ ol {
     padding: 20px 30px;
 }
 
-
 .skill-container {
     display: flex;
     flex-direction: column;
@@ -95,29 +94,29 @@ ol {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
+    padding-top: 15px;
 }
 
 .languages-list > li {
     display: grid;
     justify-items: center;
     align-items: center;
-    border-bottom: 1px solid black;
     border-radius: 0;
-}
-
-.level {
-    display: flex;
-    justify-content: flex-end;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
     .me-title {
         margin-left: 20%;
     }
-    
+
     .languages-list > li {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
+    }
+
+    .level {
+        font-weight: 300;
+        margin: -25px 0 20px;
     }
 
     .icons-full {
@@ -155,7 +154,7 @@ ol {
     .me-title {
         margin-left: 30%;
     }
-    
+
     .languages-list > li {
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
