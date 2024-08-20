@@ -19,7 +19,7 @@
 
 .me-title,
 #copyright-title,
-#copyright-github-title,
+.copyright-smaller-title,
 #icons-meaning {
     font-size: calc(12px + 1rem);
     font-style: italic;
@@ -28,7 +28,7 @@
     margin: 2.5px 0 10px 5px;
 }
 
-#copyright-github-title,
+.copyright-smaller-title,
 #icons-meaning {
     font-size: calc(6px + 0.7rem);
 }
