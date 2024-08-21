@@ -116,13 +116,14 @@ ol {
     padding: 15px 30px;
 }
 
+.information-container > div p {
+    margin-top: 20px;
+}
+
 .personal-photo {
     border-radius: 50px;
 }
 
-.job-container {
-    row-gap: 20px;
-}
 
 .languages-list {
     display: grid;
@@ -281,7 +282,6 @@ ol {
         min-width: 300px;
         padding: 25px 40px;
     }
-    
 
     .languages-list > li {
         grid-template-columns: repeat(3, 1fr);
