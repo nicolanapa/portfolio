@@ -28,6 +28,7 @@
     margin: 2.5px 0 10px 5px;
 }
 
+.skill-title,
 .copyright-smaller-title,
 #icons-meaning {
     font-size: calc(6px + 0.7rem);
@@ -49,6 +50,7 @@
     overflow: scroll;
 }
 
+.skill-title,
 .icons-meaning {
     text-align: center;
     margin: 10px 0 -10px 0;
