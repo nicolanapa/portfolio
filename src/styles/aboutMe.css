@@ -28,7 +28,7 @@
     margin: 2.5px 0 10px 5px;
 }
 
-.skill-title,
+.medium-title,
 .copyright-smaller-title,
 #icons-meaning {
     font-size: calc(6px + 0.7rem);
@@ -50,9 +50,12 @@
     overflow: scroll;
 }
 
-.skill-title,
+.medium-title,
 .icons-meaning {
     text-align: center;
+}
+
+.icons-meaning {
     margin: 10px 0 -10px 0;
 }
 
@@ -86,11 +89,25 @@ ol {
     padding: 20px 30px;
 }
 
-.skill-container {
+.skill-container,
+.information-container,
+.job-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 10px;
+}
+
+.information-container {
+    row-gap: 20px;
+}
+
+.personal-photo {
+    border-radius: 50px;
+}
+
+.job-container {
+    row-gap: 20px;
 }
 
 .languages-list {
