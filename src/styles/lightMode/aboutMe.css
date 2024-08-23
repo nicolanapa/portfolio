@@ -3,14 +3,19 @@
     border-bottom: 1px solid rgb(100, 100, 100);
 }
 
+.me-container,
 .copyright,
 .icons,
 .icon-lists {
     background-color: #cdf5fd;
 }
 
+.all-me-container > section,
 .icon-list > li {
     background-color: #c5ebbc;
+}
+
+.icon-list > li {
     transition: background-color 0.5s ease-out;
 }
 
