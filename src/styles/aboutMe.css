@@ -24,10 +24,15 @@
 .copyright-smaller-title,
 #icons-meaning {
     font-size: calc(12px + 1rem);
-    font-style: italic;
     font-weight: 750;
 
     margin: 2.5px 0 10px 5px;
+}
+
+#copyright-title,
+.copyright-smaller-title,
+#icons-meaning {
+    font-style: italic;
 }
 
 .medium-title,
@@ -91,9 +96,18 @@ ol {
 
 /* Me */
 
+.me-container,
+.all-me-container > section {
+    border-radius: 30px;
+}
+
 .me-container {
     margin: 20px;
     padding: 20px 30px;
+}
+
+.all-me-container {
+    gap: 40px;
 }
 
 .information-container,
@@ -123,7 +137,6 @@ ol {
 .personal-photo {
     border-radius: 50px;
 }
-
 
 .languages-list {
     display: grid;
