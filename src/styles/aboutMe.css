@@ -101,13 +101,9 @@ ol {
     border-radius: 30px;
 }
 
-.me-container {
-    margin: 20px;
-    padding: 20px 30px;
-}
-
-.all-me-container {
-    gap: 40px;
+.all-me-container > section {
+    margin-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .information-container,
@@ -157,19 +153,25 @@ ol {
         margin-left: 20%;
     }
 
+    .me-container {
+        margin: 10px;
+        padding: 20px 10px;
+    }
+
     .all-me-container {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     .personal-photo {
-        width: 250px;
+        width: 225px;
         height: auto;
     }
 
     .information-container > div {
         min-width: 200px;
-        padding: 15px;
+        padding: 15px 5px;
     }
 
     .languages-list > li {
@@ -222,9 +224,15 @@ ol {
         margin-left: 30%;
     }
 
+    .me-container {
+        margin: 20px;
+        padding: 20px 30px;
+    }
+
     .all-me-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 30px;
     }
 
     .personal-photo {
@@ -280,9 +288,15 @@ ol {
         margin-left: 40%;
     }
 
+    .me-container {
+        margin: 40px;
+        padding: 30px 40px;
+    }
+
     .all-me-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 60px;
     }
 
     .personal-photo {
