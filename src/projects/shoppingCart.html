@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="apple-mobile-web-app-title" content="Nicolanapa's Website" />
+        <meta name="application-name" content="Nicolanapa's Website" />
+        <meta name="msapplication-TileColor" content="#eef5ff" />
+        <meta name="msapplication-TileImage" content="https://nicolanapa.duckdns.org/images/favicons/mstile-144x144.png" />
+        <meta name="msapplication-config" content="https://nicolanapa.duckdns.org/images/favicons/browserconfig.xml" />
+        <meta name="theme-color" content="#eef5ff" />
+
+        <meta name="description" content="Project: Shopping Cart, this project comes from 'The Odin Project' and it's a shopping website with a cart" />
+        <title>Project: Shopping Cart</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://nicolanapa.duckdns.org/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://nicolanapa.duckdns.org/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="194x194" href="https://nicolanapa.duckdns.org/images/favicons/favicon-194x194.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="https://nicolanapa.duckdns.org/images/favicons/android-chrome-192x192.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://nicolanapa.duckdns.org/images/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="https://nicolanapa.duckdns.org/images/favicons/site.webmanifest" />
+        <link rel="mask-icon" href="https://nicolanapa.duckdns.org/images/favicons/safari-pinned-tab.svg" color="#000000" />
+        <link rel="shortcut icon" href="https://nicolanapa.duckdns.org/images/favicons/favicon.ico" />
+
+        <link rel="stylesheet preload" href="../styles/font.css" as="style" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="stylesheet" href="../styles/bestProjects.css" />
+        <link rel="stylesheet" href="../styles/project.css" />
+        <link rel="stylesheet" href="../styles/darkMode/projects.css" id="projects-mode" />
+        <link rel="stylesheet" href="../styles/darkMode/bestProjects.css" id="best-projects-mode" />
+        <link rel="stylesheet" href="../styles/darkMode/darkMode.css" id="theme-mode" />
+        <script src="../scripts/startDarkLightMode.js" type="module"></script>
+        <script defer src="../scripts/darkLightMode.js" type="module"></script>
+    </head>
+    <body>
+        <nav class="bottom-border">
+            <div class="header">
+                <!-- HEADER LEFT -->
+                <div class="header-left">
+                    <img
+                        id="profile-picture"
+                        src="../images/githubProfilePictureCompressed.webp"
+                        alt="My profile picture of my Github account"
+                        height="60px"
+                        width="30px"
+                    />
+
+                    <h1 class="index-title">
+                        <a class="header link" href="../index.html">Nicolanapa</a>
+                    </h1>
+                </div>
+
+                <div style="padding-left: 10px" class="header-left-mobile">
+                    <a class="header link" href="../index.html"
+                        ><img
+                            class="actual-tab"
+                            id="profile-picture"
+                            src="../images/githubProfilePictureCompressed.webp"
+                            alt="My profile picture of my Github account, linking to the Home"
+                    /></a>
+                </div>
+
+                <!-- HEADER CENTRAL -->
+                <div class="header-center">
+                    <div></div>
+                    <div></div>
+                    <h2 class="actual-tab actual-project">
+                        <a class="header link" href="../bestProjects.html">Best Projects</a>
+                    </h2>
+                    <div></div>
+                    <div><a class="header link" href="../aboutMe.html">About me</a></div>
+                    <div></div>
+                </div>
+
+                <div class="header-center-mobile">
+                    <div class="actual-tab actual-project">
+                        <a class="header link" href="../bestProjects.html"
+                            ><img id="best-projects-svg" src="../images/bestProjectsIcon.svg" alt="Pointing to the Best Projects Page"
+                        /></a>
+                    </div>
+                    <div></div>
+                    <div>
+                        <a class="header link" href="../aboutMe.html"
+                            ><img id="about-me-svg" src="../images/aboutMeIcon.svg" alt="Pointing to the About me Page"
+                        /></a>
+                    </div>
+                </div>
+
+                <!-- HEADER RIGHT -->
+                <div class="header-right">
+                    <button class="dark-light-mode">
+                        <img
+                            class="light-color"
+                            id="dark-light-mode-svg"
+                            src="../images/darkLightMode.svg"
+                            alt="Dark and Light mode"
+                            height="60px"
+                            width="60px"
+                        />
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <article class="project">
+                <div class="project-left">
+                    <h3 class="title">Project Name</h3>
+
+                    <div class="icon-holder">
+                        <a href="">
+                            <img class="website" src="../images/projectWebsite.svg" alt="Website of the Project 'X'" />
+                        </a>
+                        <a href="https://github.com/nicolanapa/"
+                            ><img class="repository" src="../images/githubMark.svg" alt="Repository of the Project 'X'"
+                        /></a>
+                    </div>
+
+                    <p class="description">A</p>
+
+                    <p class="description">B</p>
+
+                    <p class="description">C</p>
+
+                    <!-- IMAGES and DESCRIPTIONS-->
+                    <img class="mobile-image" src="" alt="Front-Page of the Project 'X', Mobile-view" width="400px" height="auto" />
+
+                    <p class="description-image mobile-image">Mobile view, Front-Page of this Project</p>
+                    <p class="description-image mobile-image">
+                        <a class="link little-mobile" href="">Lossless Image</a>
+                    </p>
+
+                    <img class="mobile-image" src="" alt="Front-Page of the Project 'X', Fullscreen Mobile-view" width="400px" height="auto" />
+
+                    <p class="description-image mobile-image">Mobile view, Fullscreen</p>
+                    <p class="description-image mobile-image">
+                        <a class="link little-mobile" href="">Lossless Image</a>
+                    </p>
+
+                    <img class="mobile-image" src="" alt="Front-Page of the Project 'X', Mobile-view of X" width="400px" height="auto" />
+
+                    <p class="description-image mobile-image">Mobile view, X</p>
+                    <p class="description-image mobile-image">
+                        <a class="link little-mobile" href="">Lossless Image</a>
+                    </p>
+                </div>
+
+                <div class="project-right">
+                    <!-- Image or Gif -->
+                    <figure class="image-container">
+                        <img class="image" src="" alt="Front-Page of the Project 'X', Desktop-view" width="400px" height="auto" />
+
+                        <figcaption class="description-image image">
+                            Desktop view, Front-Page of this Project.
+                            <a class="link little" href="">Lossless Image</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="image-container">
+                        <img class="image" src="" alt="Front-Page of the Project 'X', Desktop-view of X" width="400px" height="auto" />
+
+                        <figcaption class="description-image image">
+                            Desktop view, an example of X.
+                            <a class="link little" href="">Lossless Image</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
+
