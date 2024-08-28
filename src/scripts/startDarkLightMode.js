@@ -2,10 +2,12 @@ const themeLink = document.querySelector("#theme-mode");
 const aboutMeLink = document.querySelector("#about-me-mode");
 const bestProjectsLink = document.querySelector("#best-projects-mode");
 const projectsLink = document.querySelector("#projects-mode");
+const nodeJsIcon = document.querySelector("#node-js-icon");
 
 function toLightMode() {
     if (aboutMeLink !== null) {
         aboutMeLink.href = "./styles/lightMode/aboutMe.css";
+        nodeJsIcon.src = "./images/programmingLanguages/nodejsStackedDarkIcon.svg";
     }
     // When it's in the projects directory
     if (projectsLink === null) {
@@ -25,6 +27,7 @@ function toLightMode() {
 function toDarkMode() {
     if (aboutMeLink !== null) {
         aboutMeLink.href = "./styles/darkMode/aboutMe.css";
+        nodeJsIcon.src = "./images/programmingLanguages/nodejsStackedLightIcon.svg";
     }
     // When it's in the projects directory
     if (projectsLink === null) {
