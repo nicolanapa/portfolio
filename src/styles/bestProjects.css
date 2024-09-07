@@ -1,3 +1,7 @@
+main {
+    padding-bottom: 60px;
+}
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
