@@ -2,6 +2,26 @@ main {
     padding-bottom: 60px;
 }
 
+.github-information-container {
+    display: flex;
+    justify-content: center;
+}
+
+.github-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    padding-right: 25px;
+    margin: 20px 0 10px;
+    border-radius: 30px;
+}
+
+.github-information img {
+    padding: 7.5px;
+}
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
