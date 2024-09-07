@@ -6,7 +6,12 @@
     background-color: #11230e;
 }
 
-.circle-title-container {
+.github-information img {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(6%) hue-rotate(137deg) brightness(104%) contrast(100%);
+}
+
+.circle-title-container,
+.github-information {
     background-color: #0b1609;
 }
 
