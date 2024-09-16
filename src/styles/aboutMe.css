@@ -383,13 +383,12 @@ ol {
     }
 
     50% {
-        opacity: 0.6;
+        opacity: 1;
         transform: translateY(0.1em);
     }
 
 
     to {
-        opacity: 1;
         transform: translateY(0);
     }
 }
