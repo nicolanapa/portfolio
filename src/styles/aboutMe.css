@@ -175,7 +175,7 @@ ol {
 .list-with-details details[open] ul > li {
     font-weight: 500;
     padding: 2px;
-    margin: 3px 0;
+    margin: 7.5px 0;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
