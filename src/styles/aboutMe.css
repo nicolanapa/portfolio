@@ -152,6 +152,7 @@ ol {
     display: flex;
     justify-content: center;
     padding: 10px 10px 20px;
+    margin-top: -30px;
 }
 
 .list-with-details details summary {
