@@ -1,5 +1,5 @@
 .information-container div,
-.languages-list > li {
+.languages-list > .list-with-details {
     border-bottom: 1px solid rgb(59, 59, 59);
 }
 
