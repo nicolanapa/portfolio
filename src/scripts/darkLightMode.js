@@ -3,8 +3,6 @@ import { toLightMode, toDarkMode } from "./startDarkLightMode.js";
 const darkLightModeButton = document.querySelector(".dark-light-mode");
 
 darkLightModeButton.addEventListener("click", () => {
-    //console.log("clicked!");
-
     if (localStorage.getItem("darkLightMode") === "light") {
         localStorage.setItem("darkLightMode", "dark");
         toDarkMode();
@@ -13,5 +11,7 @@ darkLightModeButton.addEventListener("click", () => {
         toLightMode();
     } else {
         console.log(new Error("darkLightMode can't get right Mode"));
+        localStorage.setItem("darkLightMode", "light");
+        toLightMode();
     }
 });
