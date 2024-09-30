@@ -110,7 +110,7 @@ main {
 }
 
 .circle.js {
-    background-color: rgb(109, 7, 234);
+    background-color: rgb(234, 223, 7);
 }
 
 .circle.cpp {
@@ -119,6 +119,18 @@ main {
 
 .circle.react {
     background-color: #58c4dc;
+}
+
+.circle.nodejs {
+    background-color: #ffffff;
+}
+
+.circle.express {
+    background-color: #4f4f4f;
+}
+
+.circle.sql {
+    background-color: #9500ff;
 }
 
 @media only screen and (min-width: 50px) and (max-width: 700px) {
