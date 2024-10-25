@@ -1,14 +1,13 @@
 # My portfolio
 
-This is my "**portfolio/website**" and it's currently hosted on my [**Server**](https://nicolanapa.duckdns.org).
+This is my "**portfolio/website**" and it's currently hosted on my [**Server**](https://nicolanapa.duckdns.org) and on [**Netlify**](https://nicolanapa.netlify.app)
 If you're interested to see the new features from the [development](https://github.com/nicolanapa/portfolio/tree/development) branch you can check the
 [**development subdomain**](https://development.nicolanapa.duckdns.org/)
 
 ## Server's status
 
-If the site doesn't load, the server might be off.
-It's not always on.
-I might use Github Pages as a backup "page".
+If the site doesn't load, the server might be off since it's not always on.
+You my Server is off then check the [Netlify option](https://nicolanapa.netlify.app)
 If it's taking too long to load the website then the cause might be the DNS i'm using (Duck DNS)
 
 ## Server's specs
@@ -21,7 +20,8 @@ My server has these specs if you're interested:
     -   16GB DDR3
 -   SSD
     -   870 EVO 1TB
--   HDD - 1TB (have another HDD of 1TB and 500GB but they're not used as of now)
+-   HDD
+    -   4TB, 1TB (and 1TB and 500GB, but these aren't used currently)
 
 As you can see it's not really new but I've upgraded it a lot (bought it used at 20€, upgraded CPU, RAM, SSD and bought 2 1TB HDDs)
 
