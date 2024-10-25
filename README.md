@@ -33,12 +33,14 @@ To host this [website](https://nicolanapa.duckdns.org) I've used:
 -   Fail2ban
 -   GoAccess (For viewing/reading the website's Statistics)
 
-But I've also got/setup
+But I'm also selfhosting
 
 -   Jellyfin
--   SSH/Samba
 -   A Minecraft Server
 -   A Project Zomboid Server
 
-on my server.
+And using
+
+-   SSH
+-   Samba
 
