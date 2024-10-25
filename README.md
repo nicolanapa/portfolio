@@ -1,14 +1,14 @@
 # My portfolio
 
-This is my "**portfolio/website**" and it's currently hosted on my [**Server**](https://nicolanapa.duckdns.org) and on [**Netlify**](https://nicolanapa.netlify.app)
+This is my "**portfolio/website**" and it's currently hosted on my [**Server**](https://nicolanapa.duckdns.org) and on [**Netlify**](https://nicolanapa.netlify.app).<br />
 If you're interested to see the new features from the [development](https://github.com/nicolanapa/portfolio/tree/development) branch you can check the
-[**development subdomain**](https://development.nicolanapa.duckdns.org/)
+[**development subdomain**](https://development.nicolanapa.duckdns.org/).
 
 ## Server's status
 
-If the site doesn't load, the server might be off since it's not always on.
-If my Server is off then check the [Netlify option](https://nicolanapa.netlify.app)
-If it's taking too long to load the website then the cause might be the DNS i'm using (Duck DNS)
+If the site doesn't load, the server might be off since it's not always on.<br />
+If my Server is off then check the [Netlify option](https://nicolanapa.netlify.app).<br />
+If it's taking too long to load the website then the cause might be the DNS i'm using (Duck DNS).
 
 ## Server's specs
 
