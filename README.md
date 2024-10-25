@@ -7,7 +7,7 @@ If you're interested to see the new features from the [development](https://gith
 ## Server's status
 
 If the site doesn't load, the server might be off since it's not always on.
-You my Server is off then check the [Netlify option](https://nicolanapa.netlify.app)
+If my Server is off then check the [Netlify option](https://nicolanapa.netlify.app)
 If it's taking too long to load the website then the cause might be the DNS i'm using (Duck DNS)
 
 ## Server's specs
@@ -23,7 +23,7 @@ My server has these specs if you're interested:
 -   HDD
     -   4TB, 1TB (and 1TB and 500GB, but these aren't used currently)
 
-As you can see it's not really new but I've upgraded it a lot (bought it used at 20€, upgraded CPU, RAM, SSD and bought 2 1TB HDDs)
+As you can see it's not really new but I've upgraded it a lot (bought it used cheaply, upgraded CPU, RAM, SSD and bought 2 1TB HDDs)
 
 ## Services/Programs used
 
