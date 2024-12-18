@@ -327,7 +327,7 @@
                             </li>
 
                             <li tabindex="0">
-                                <p class="language">SQL</p>
+                                <p class="language">SQL (RDBMS: PostgreSQL)</p>
 
                                 <!--<img src="" alt="" />-->
                                 <div></div>
@@ -375,10 +375,14 @@
                                         <li>http and createServer, req, res</li>
                                         <li>Writing and reading files with fs</li>
                                         <li>Basics from crypto</li>
+                                        <li>bcryptjs and argon2 (argon2id) for password hashing</li>
                                         <li>Basics from events, EventEmitter</li>
                                         <li>process and os</li>
                                         <li>url</li>
-                                        <li>".env" (dotenv, external package so not really Node.js)</li>
+                                        <li>
+                                            ".env" (dotenv, external package so not really Node.js (it's not really needed thanks to Node's
+                                            --env-file))
+                                        </li>
                                         <li>etc...</li>
                                     </ul>
                                 </details>
@@ -402,6 +406,20 @@
                                         <li>set, status, send, end</li>
                                         <li>use, all, any, listen</li>
                                         <li>Express Router</li>
+                                        <li>Express Session</li>
+
+                                        <li>Dependencies Most Used</li>
+                                        <ul>
+                                            <ul>
+                                                <li>ejs (view engine)</li>
+                                                <li>pg or postgres (for connecting to a PostgreSQL DB)</li>
+                                                <li>connect-pg-simple (for storing sessions in a db)</li>
+                                                <li>Passport and passport-local (for LocalStrategy) (authentication)</li>
+                                                <li>express-validator (for validating forms)</li>
+                                                <!--<li>Prisma ORM</li>-->
+                                            </ul>
+                                        </ul>
+                                        <li></li>
                                     </ul>
                                 </details>
                             </li>
